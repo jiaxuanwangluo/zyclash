@@ -5,211 +5,99 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Cat高速节点_1, server: 20.222.84.185, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_2, server: taiwjing.kuli888.xyz, port: 520, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: taiwjing.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_3, server: hklhjk.zhs.company, port: 53999, type: vmess, uuid: 5d418574-e47c-3972-8c9f-d1dccacadefa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zhs, ws-headers: {Host: hklhjk.zhs.company}, udp: true}
-  - {name: Cat高速节点_4, server: hksh3t.zhs.company, port: 2096, type: vmess, uuid: 5d418574-e47c-3972-8c9f-d1dccacadefa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zhs, ws-headers: {Host: hksh3t.zhs.company}, udp: true}
-  - {name: Cat高速节点_5, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: e8490cd3-c589-4c06-8465-469de822a45e, sni: kr1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_6, server: azure-jp-1.forwardserver.xyz, port: 38748, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: us4.qcjs.one}, udp: true}
-  - {name: Cat高速节点_7, server: azjp.9218561.xyz, port: 27613, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: azjp.9218561.xyz}, udp: true}
-  - {name: Cat高速节点_8, server: azure-hk-1.forwardserver.xyz, port: 42010, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: azure-hk-1.forwardserver.xyz}, udp: true}
-  - {name: Cat高速节点_9, server: azure-hk-1.forwardserver.xyz, port: 37675, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: azure-hk-1.forwardserver.xyz}, udp: true}
-  - {name: Cat高速节点_10, server: 23.101.29.12, port: 80, type: vmess, uuid: 96988de9-5596-4b31-b8f7-ee40a6d25a1c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 23.101.29.12}, udp: true}
-  - {name: Cat高速节点_11, server: 20.212.197.126, port: 443, type: trojan, password: b345dea8-d232-4aa5-8bec-517f78f986e3, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_12, server: azure-hk-1.forwardserver.xyz, port: 59627, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zh-cn, ws-headers: {Host: azure-hk-1.forwardserver.xyz}, udp: true}
-  - {name: Cat高速节点_13, server: azure-hk-1.forwardserver.xyz, port: 22214, type: vmess, uuid: 0b406a9e-1685-4f10-a684-64376ac5d380, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /nana, ws-headers: {Host: us2.qcjs.one}, udp: true}
-  - {name: Cat高速节点_14, server: 104.160.43.43, port: 443, type: vmess, uuid: a307a6f7-b697-400e-bc7e-e6356de877c2, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdfaszzsdfa, ws-headers: {Host: 104.160.43.43}, udp: true}
   - {name: Cat高速节点_15, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_16, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_17, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_18, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_19, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_20, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_21, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_22, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_23, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_24, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_25, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_26, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_27, server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_28, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_29, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_30, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_31, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_32, server: ukwlb6.zhs.company, port: 443, type: vmess, uuid: 5d418574-e47c-3972-8c9f-d1dccacadefa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /zhs, ws-headers: {Host: ukwlb6.zhs.company}, udp: true}
-  - {name: Cat高速节点_33, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_34, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Cat高速节点_35, server: u3.anmu.one, port: 12743, type: vmess, uuid: 2a8a7669-c7c5-4716-face-44c653acc7cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_36, server: u3.anmu.one, port: 28114, type: vmess, uuid: ce7d99ae-def6-4acb-e54f-bfc8f48a94ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_37, server: u3.anmu.one, port: 11203, type: vmess, uuid: e738e28f-7ea7-4b85-ac20-934f75db94bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_38, server: u3.anmu.one, port: 15572, type: vmess, uuid: 726156d9-4b9f-4643-f663-7f1237892bb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat高速节点_2, server: taiwjing.kuli888.xyz, port: 520, type: trojan, password: 54acbfdc-34ec-3d72-8182-3b437e4747eb, sni: taiwjing.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat高速节点_46, server: ccus1y2t.anmu.one, port: 26449, type: vmess, uuid: 46fda2a5-9460-4faa-8d6f-32c3d4255493, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat高速节点_41, server: u5.anmu.one, port: 53532, type: vmess, uuid: b39c6188-43b1-4a8c-ca01-19a0f9ae769a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: Cat高速节点_39, server: u5.anmu.one, port: 13209, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: Cat高速节点_40, server: u5.anmu.one, port: 23146, type: vmess, uuid: 2f543506-4415-4edb-e374-3eadd0444efd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_41, server: u5.anmu.one, port: 53532, type: vmess, uuid: b39c6188-43b1-4a8c-ca01-19a0f9ae769a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_42, server: cc1m166.anmu.one, port: 15647, type: vmess, uuid: 07911d6e-7b42-49e3-deb0-a5d02cc63410, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_43, server: cc1m166.anmu.one, port: 21964, type: vmess, uuid: ffb7e8c8-0e7c-4847-8d65-0676cdee0ece, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_44, server: cc1m166.anmu.one, port: 19649, type: vmess, uuid: ce6c6f4b-1d73-4232-82fb-c165124d8d4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_45, server: ccus1y2t.anmu.one, port: 19694, type: vmess, uuid: 286e742e-c2c3-4a36-b582-8b9c9cef566b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat高速节点_46, server: ccus1y2t.anmu.one, port: 26449, type: vmess, uuid: 46fda2a5-9460-4faa-8d6f-32c3d4255493, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
   - {name: Cat高速节点_47, server: ccus1y2t.anmu.one, port: 17946, type: vmess, uuid: 26a723e0-bd26-49bd-80f0-e1fff174732c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat高速节点_45, server: ccus1y2t.anmu.one, port: 19694, type: vmess, uuid: 286e742e-c2c3-4a36-b582-8b9c9cef566b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat高速节点_28, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Cat高速节点_33, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 使用前更新下订阅获取最新节点, server: bb1.zimu.ga, port: 44813, type: ss, cipher: aes-128-gcm, password: fa4cf8d6-c068-4e08-a0e2-264ca9759351, udp: true}
+  - {name: 美国|公众号:子木黑科技+2, server: bb1.zimu.ga, port: 44819, type: ss, cipher: aes-128-gcm, password: fa4cf8d6-c068-4e08-a0e2-264ca9759351, udp: true}
+  - {name: 日本|公众号:子木黑科技, server: bb2.zimu.ga, port: 44827, type: ss, cipher: aes-128-gcm, password: fa4cf8d6-c068-4e08-a0e2-264ca9759351, udp: true}
+  - {name: 新加坡|公众号:子木黑科技, server: bb1.zimu.ga, port: 44817, type: ss, cipher: aes-128-gcm, password: fa4cf8d6-c068-4e08-a0e2-264ca9759351, udp: true}
+  - {name: 英国|公众号:子木黑科技, server: bb1.zimu.ga, port: 44825, type: ss, cipher: aes-128-gcm, password: fa4cf8d6-c068-4e08-a0e2-264ca9759351, udp: true}
+  - {name: 日本•流媒解锁, server: nfjp1.qingyun123.xyz, port: 10000, type: trojan, password: 4070a5dc-5b80-4d3d-9f3a-c3fa7fb66d1f, sni: nfjp1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国4•流媒解锁, server: krnf2.qingyun123.xyz, port: 10050, type: trojan, password: 4070a5dc-5b80-4d3d-9f3a-c3fa7fb66d1f, sni: krnf2.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: 韩国3•流媒解锁, server: krnf1.qingyun123.xyz, port: 10050, type: trojan, password: 4070a5dc-5b80-4d3d-9f3a-c3fa7fb66d1f, sni: krnf1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: South Korea 01, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: c7bd8f3b-817b-4eda-8999-9969e60c9d4d, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -228,53 +116,25 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -285,158 +145,74 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -452,53 +228,25 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Cat高速节点_1
-      - Cat高速节点_2
-      - Cat高速节点_3
-      - Cat高速节点_4
-      - Cat高速节点_5
-      - Cat高速节点_6
-      - Cat高速节点_7
-      - Cat高速节点_8
-      - Cat高速节点_9
-      - Cat高速节点_10
-      - Cat高速节点_11
-      - Cat高速节点_12
-      - Cat高速节点_13
-      - Cat高速节点_14
       - Cat高速节点_15
-      - Cat高速节点_16
-      - Cat高速节点_17
-      - Cat高速节点_18
-      - Cat高速节点_19
-      - Cat高速节点_20
-      - Cat高速节点_21
-      - Cat高速节点_22
-      - Cat高速节点_23
-      - Cat高速节点_24
-      - Cat高速节点_25
-      - Cat高速节点_26
-      - Cat高速节点_27
-      - Cat高速节点_28
-      - Cat高速节点_29
-      - Cat高速节点_30
-      - Cat高速节点_31
-      - Cat高速节点_32
-      - Cat高速节点_33
-      - Cat高速节点_34
-      - Cat高速节点_35
-      - Cat高速节点_36
-      - Cat高速节点_37
-      - Cat高速节点_38
+      - Cat高速节点_2
+      - Cat高速节点_46
+      - Cat高速节点_41
       - Cat高速节点_39
       - Cat高速节点_40
-      - Cat高速节点_41
-      - Cat高速节点_42
-      - Cat高速节点_43
-      - Cat高速节点_44
-      - Cat高速节点_45
-      - Cat高速节点_46
       - Cat高速节点_47
+      - Cat高速节点_45
+      - Cat高速节点_28
+      - Cat高速节点_33
+      - 使用前更新下订阅获取最新节点
+      - 美国|公众号:子木黑科技+2
+      - 日本|公众号:子木黑科技
+      - 新加坡|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 日本•流媒解锁
+      - 韩国4•流媒解锁
+      - 韩国3•流媒解锁
+      - South Korea 01
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
