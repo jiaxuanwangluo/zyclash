@@ -5,115 +5,123 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 告诉节点_1, server: 20.210.204.123, port: 10121, type: ss, cipher: aes-128-gcm, password: b785ee72-08bc-434c-8a67-4f3334bac3bc, udp: true}
-  - {name: 告诉节点_2, server: 20.222.74.123, port: 10122, type: ss, cipher: aes-128-gcm, password: b785ee72-08bc-434c-8a67-4f3334bac3bc, udp: true}
-  - {name: 告诉节点_3, server: 20.205.15.0, port: 10113, type: ss, cipher: aes-128-gcm, password: b785ee72-08bc-434c-8a67-4f3334bac3bc, udp: true}
-  - {name: 告诉节点_4, server: 20.205.11.106, port: 10111, type: ss, cipher: aes-128-gcm, password: b785ee72-08bc-434c-8a67-4f3334bac3bc, udp: true}
-  - {name: 告诉节点_5, server: superjapan1111.dnsfree.top, port: 12387, type: trojan, password: c7bd8f3b-817b-4eda-8999-9969e60c9d4d, sni: superjapan1111.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_6, server: 20.239.129.46, port: 10114, type: ss, cipher: aes-128-gcm, password: b785ee72-08bc-434c-8a67-4f3334bac3bc, udp: true}
-  - {name: 告诉节点_7, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: c7bd8f3b-817b-4eda-8999-9969e60c9d4d, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_8, server: u1.anmu.one, port: 50891, type: vmess, uuid: aa9e723e-5fd5-483f-f24d-0ee32780dfd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_9, server: u1.anmu.one, port: 59113, type: vmess, uuid: be4ca65a-678b-4ee1-b9a1-142662ee3e3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_10, server: u1.anmu.one, port: 52409, type: vmess, uuid: 17b5cae4-f7ee-4d6a-9986-af4c9e076d15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_11, server: u1.anmu.one, port: 17235, type: vmess, uuid: 71155edf-4ba8-486f-d904-336f1f12a6cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_12, server: u2.anmu.one, port: 18182, type: vmess, uuid: 94907fa7-91ec-4671-bb2a-e69acf1cba08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_13, server: u2.anmu.one, port: 49253, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_14, server: u2.anmu.one, port: 52756, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_15, server: u3.anmu.one, port: 16225, type: vmess, uuid: ce7d99ae-def6-4acb-e54f-bfc8f48a94ec, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_16, server: u3.anmu.one, port: 26297, type: vmess, uuid: e738e28f-7ea7-4b85-ac20-934f75db94bf, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_17, server: u3.anmu.one, port: 15566, type: vmess, uuid: 726156d9-4b9f-4643-f663-7f1237892bb5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_18, server: u4.anmu.one, port: 59756, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_19, server: u4.anmu.one, port: 25662, type: vmess, uuid: 8228550e-7f53-4809-8cb1-5f9420380d13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_20, server: u4.anmu.one, port: 10205, type: vmess, uuid: da66ae90-2013-4e8f-92c5-2720243188dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_21, server: u5.anmu.one, port: 13215, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_22, server: u5.anmu.one, port: 23122, type: vmess, uuid: 2f543506-4415-4edb-e374-3eadd0444efd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: 告诉节点_23, server: 20.239.58.217, port: 10112, type: ss, cipher: aes-128-gcm, password: b785ee72-08bc-434c-8a67-4f3334bac3bc, udp: true}
+  - {name: Cat黑科技_1, server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_2, server: azjpf2s.likiv2.xyz, port: 443, type: vmess, uuid: 1b8892ec-3373-45e1-83a2-b9d1f7c4ba93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjpf2s, ws-headers: {Host: azjpf2s.likiv2.xyz}, udp: true}
+  - {name: Cat黑科技_3, server: asusjobhr.0064.shuyue521.com, port: 13100, type: ss, cipher: aes-128-gcm, password: e71ba33b-ba0c-4ffb-96ff-f1cf99e7d7d3, udp: true}
+  - {name: Cat黑科技_4, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_5, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, sni: kr1.qingyun123.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_6, server: 123.59.72.193, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_7, server: hk-1.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: Cat黑科技_8, server: 106.75.168.104, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_9, server: hk-iii.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
+  - {name: Cat黑科技_10, server: 20.239.56.22, port: 38443, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_11, server: 211.72.35.153, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_12, server: 106.75.154.24, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_13, server: 20.205.98.64, port: 38443, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_14, server: 113.31.109.30, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_15, server: v3bgptw.kuli888.xyz, port: 52025, type: trojan, password: f0b0f2dd-5a35-3c8e-8ec2-27ebaad71184, sni: v3bgptw.kuli888.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_16, server: 93.179.112.142, port: 54317, type: vmess, uuid: faeb79e5-6549-4b08-8e87-3d7c5457930d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_17, server: 120.232.192.250, port: 3384, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_18, server: superjapan1111.dnsfree.top, port: 12387, type: trojan, password: c7bd8f3b-817b-4eda-8999-9969e60c9d4d, sni: superjapan1111.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_19, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: c7bd8f3b-817b-4eda-8999-9969e60c9d4d, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_20, server: u1.anmu.one, port: 52409, type: vmess, uuid: 17b5cae4-f7ee-4d6a-9986-af4c9e076d15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_21, server: u2.anmu.one, port: 52756, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_22, server: u2.anmu.one, port: 49253, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_23, server: u1.anmu.one, port: 17235, type: vmess, uuid: 71155edf-4ba8-486f-d904-336f1f12a6cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_24, server: u1.anmu.one, port: 50891, type: vmess, uuid: aa9e723e-5fd5-483f-f24d-0ee32780dfd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_25, server: u5.anmu.one, port: 13215, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -132,29 +140,31 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -165,86 +175,92 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -260,29 +276,31 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 告诉节点_1
-      - 告诉节点_2
-      - 告诉节点_3
-      - 告诉节点_4
-      - 告诉节点_5
-      - 告诉节点_6
-      - 告诉节点_7
-      - 告诉节点_8
-      - 告诉节点_9
-      - 告诉节点_10
-      - 告诉节点_11
-      - 告诉节点_12
-      - 告诉节点_13
-      - 告诉节点_14
-      - 告诉节点_15
-      - 告诉节点_16
-      - 告诉节点_17
-      - 告诉节点_18
-      - 告诉节点_19
-      - 告诉节点_20
-      - 告诉节点_21
-      - 告诉节点_22
-      - 告诉节点_23
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
