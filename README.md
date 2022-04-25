@@ -5,31 +5,61 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Cat黑科技_1, server: 116.129.253.201, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_2, server: azjpf2s.likiv2.xyz, port: 443, type: vmess, uuid: 1b8892ec-3373-45e1-83a2-b9d1f7c4ba93, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /azjpf2s, ws-headers: {Host: azjpf2s.likiv2.xyz}, udp: true}
-  - {name: Cat黑科技_3, server: asusjobhr.0064.shuyue521.com, port: 13100, type: ss, cipher: aes-128-gcm, password: e71ba33b-ba0c-4ffb-96ff-f1cf99e7d7d3, udp: true}
-  - {name: Cat黑科技_4, server: hncu.relay.qchwnd.moe, port: 10201, type: trojan, password: 5b059403-c05c-4609-ab01-a9352041d2e4, sni: hncu.relay.qchwnd.moe, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_5, server: kr1.qingyun123.xyz, port: 10050, type: trojan, password: 869d7217-8ad4-4265-be69-5a848afadebf, sni: kr1.qingyun123.xyz, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_6, server: 123.59.72.193, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_7, server: hk-1.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: Cat黑科技_8, server: 106.75.168.104, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_9, server: hk-iii.bpldply.xyz, port: 80, type: vmess, uuid: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /wroot, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: Cat黑科技_10, server: 20.239.56.22, port: 38443, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_11, server: 211.72.35.153, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_12, server: 106.75.154.24, port: 3389, type: trojan, password: c3c448da2363a6f7, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_13, server: 20.205.98.64, port: 38443, type: trojan, password: a0dac702-8ab0-40e7-a8a1-1dd7d8fb65e0, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_14, server: 113.31.109.30, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_15, server: v3bgptw.kuli888.xyz, port: 52025, type: trojan, password: f0b0f2dd-5a35-3c8e-8ec2-27ebaad71184, sni: v3bgptw.kuli888.xyz, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_16, server: 93.179.112.142, port: 54317, type: vmess, uuid: faeb79e5-6549-4b08-8e87-3d7c5457930d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_17, server: 120.232.192.250, port: 3384, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_18, server: superjapan1111.dnsfree.top, port: 12387, type: trojan, password: c7bd8f3b-817b-4eda-8999-9969e60c9d4d, sni: superjapan1111.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_19, server: aead.tls.sksupersususu.dnsfree.top, port: 12345, type: trojan, password: c7bd8f3b-817b-4eda-8999-9969e60c9d4d, sni: aead.tls.sksupersususu.dnsfree.top, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_20, server: u1.anmu.one, port: 52409, type: vmess, uuid: 17b5cae4-f7ee-4d6a-9986-af4c9e076d15, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_21, server: u2.anmu.one, port: 52756, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_22, server: u2.anmu.one, port: 49253, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_23, server: u1.anmu.one, port: 17235, type: vmess, uuid: 71155edf-4ba8-486f-d904-336f1f12a6cc, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_24, server: u1.anmu.one, port: 50891, type: vmess, uuid: aa9e723e-5fd5-483f-f24d-0ee32780dfd9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_25, server: u5.anmu.one, port: 13215, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_1, server: 60.249.3.125, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_2, server: v2-5.godlight.xyz, port: 39783, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
+  - {name: Cat黑科技_3, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hl.fnyun.cyou}, udp: true}
+  - {name: Cat黑科技_4, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/seikozero/62621831a0fc7/, ws-headers: {Host: sg2.31vpn.com}, udp: true}
+  - {name: Cat黑科技_5, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us.fnyun.cyou}, udp: true}
+  - {name: Cat黑科技_6, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
+  - {name: Cat黑科技_7, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Cat黑科技_8, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Cat黑科技_9, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Cat黑科技_10, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Cat黑科技_11, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Cat黑科技_12, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Cat黑科技_13, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Cat黑科技_14, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Cat黑科技_15, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Cat黑科技_16, server: 167.88.61.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Cat黑科技_17, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Cat黑科技_18, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Cat黑科技_19, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Cat黑科技_20, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Cat黑科技_21, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Cat黑科技_22, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Cat黑科技_23, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Cat黑科技_24, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Cat黑科技_25, server: 167.88.61.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Cat黑科技_26, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Cat黑科技_27, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: Cat黑科技_28, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: Cat黑科技_29, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_30, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Cat黑科技_31, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Cat黑科技_32, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Cat黑科技_33, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Cat黑科技_34, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: Cat黑科技_35, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Cat黑科技_36, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Cat黑科技_37, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
+  - {name: Cat黑科技_38, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Cat黑科技_39, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Cat黑科技_40, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_41, server: 120.233.147.121, port: 30033, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_42, server: 45.88.42.42, port: 11100, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_43, server: 20.214.243.189, port: 11100, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_44, server: 120.233.147.121, port: 30034, type: ss, cipher: chacha20-ietf-poly1305, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, udp: true}
+  - {name: Cat黑科技_45, server: 137.116.168.94, port: 11100, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_46, server: 120.232.215.184, port: 18200, type: ss, cipher: chacha20-ietf-poly1305, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, udp: true}
+  - {name: Cat黑科技_47, server: u2.anmu.one, port: 52756, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_48, server: u2.anmu.one, port: 49253, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_49, server: u4.anmu.one, port: 10205, type: vmess, uuid: da66ae90-2013-4e8f-92c5-2720243188dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_50, server: u4.anmu.one, port: 59756, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_51, server: u4.anmu.one, port: 25662, type: vmess, uuid: 8228550e-7f53-4809-8cb1-5f9420380d13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_52, server: u5.anmu.one, port: 13215, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_53, server: u5.anmu.one, port: 23122, type: vmess, uuid: 2f543506-4415-4edb-e374-3eadd0444efd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_54, server: u2.anmu.one, port: 18182, type: vmess, uuid: 94907fa7-91ec-4671-bb2a-e69acf1cba08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_55, server: 188.166.213.38, port: 11101, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -61,6 +91,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -91,6 +151,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -122,6 +212,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -165,6 +285,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -200,6 +350,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
   - name: 📲 电报信息
     type: select
     proxies:
@@ -230,6 +410,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -261,6 +471,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -301,6 +541,36 @@ proxy-groups:
       - Cat黑科技_23
       - Cat黑科技_24
       - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
+      - Cat黑科技_53
+      - Cat黑科技_54
+      - Cat黑科技_55
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
