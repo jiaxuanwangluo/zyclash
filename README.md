@@ -5,243 +5,75 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Cat黑科技_1, server: 60.249.3.125, port: 3389, type: trojan, password: 22e7ebb2dc8ab524, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_2, server: v2-5.godlight.xyz, port: 39783, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
-  - {name: Cat黑科技_3, server: cm.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hl.fnyun.cyou}, udp: true}
-  - {name: Cat黑科技_4, server: sg2.31vpn.com, port: 80, type: vmess, uuid: 2ef64dc8-ca3c-45b8-ad5f-20871452143b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /fastssh/seikozero/62621831a0fc7/, ws-headers: {Host: sg2.31vpn.com}, udp: true}
-  - {name: Cat黑科技_5, server: bgp.zhongzhuan.fnyun.cyou, port: 443, type: vmess, uuid: 3c39f959-6e2c-4d2b-973d-a471719990c9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: us.fnyun.cyou}, udp: true}
-  - {name: Cat黑科技_6, server: jpaz1.xmrth-node.xyz, port: 10058, type: vmess, uuid: 49aed705-ac45-332c-aa62-7ac9a9d8cb0b, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: Cat黑科技_7, server: 167.88.61.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Cat黑科技_8, server: 167.88.61.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Cat黑科技_9, server: 167.88.61.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Cat黑科技_10, server: 167.88.61.60, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Cat黑科技_11, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Cat黑科技_12, server: 167.88.61.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Cat黑科技_13, server: 167.88.61.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Cat黑科技_14, server: 167.88.61.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Cat黑科技_15, server: 167.88.61.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Cat黑科技_16, server: 167.88.61.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Cat黑科技_17, server: 167.88.61.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Cat黑科技_18, server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Cat黑科技_19, server: 167.88.61.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Cat黑科技_20, server: 167.88.61.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Cat黑科技_21, server: 167.88.61.60, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Cat黑科技_22, server: 167.88.61.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Cat黑科技_23, server: 167.88.61.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Cat黑科技_24, server: 167.88.61.60, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Cat黑科技_25, server: 167.88.61.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Cat黑科技_26, server: 167.88.61.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Cat黑科技_27, server: 167.88.61.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Cat黑科技_28, server: 167.88.61.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Cat黑科技_29, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_30, server: 167.88.61.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Cat黑科技_31, server: 167.88.61.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Cat黑科技_32, server: 167.88.61.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Cat黑科技_33, server: 167.88.61.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Cat黑科技_34, server: 167.88.61.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Cat黑科技_35, server: 167.88.61.60, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Cat黑科技_36, server: 167.88.61.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Cat黑科技_37, server: node.774.gs, port: 8443, type: vmess, uuid: 28f6159e-ed46-4bfe-b893-0e7531c28143, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: node.774.gs}, udp: true}
-  - {name: Cat黑科技_38, server: 167.88.61.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Cat黑科技_39, server: 167.88.61.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Cat黑科技_40, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_41, server: 120.233.147.121, port: 30033, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_42, server: 45.88.42.42, port: 11100, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_43, server: 20.214.243.189, port: 11100, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_44, server: 120.233.147.121, port: 30034, type: ss, cipher: chacha20-ietf-poly1305, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, udp: true}
-  - {name: Cat黑科技_45, server: 137.116.168.94, port: 11100, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_46, server: 120.232.215.184, port: 18200, type: ss, cipher: chacha20-ietf-poly1305, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, udp: true}
-  - {name: Cat黑科技_47, server: u2.anmu.one, port: 52756, type: vmess, uuid: 32b306e1-d5b1-4913-d8d3-56ac23637de7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_48, server: u2.anmu.one, port: 49253, type: vmess, uuid: 919ac815-1776-47fe-8b54-508ef4f39421, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_49, server: u4.anmu.one, port: 10205, type: vmess, uuid: da66ae90-2013-4e8f-92c5-2720243188dd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_50, server: u4.anmu.one, port: 59756, type: vmess, uuid: 07ec59da-18ad-4224-8ad9-c5a66b1447a9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_51, server: u4.anmu.one, port: 25662, type: vmess, uuid: 8228550e-7f53-4809-8cb1-5f9420380d13, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_52, server: u5.anmu.one, port: 13215, type: vmess, uuid: 8170e8f8-cba4-42ad-b3bc-04f10fd254c7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_53, server: u5.anmu.one, port: 23122, type: vmess, uuid: 2f543506-4415-4edb-e374-3eadd0444efd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_54, server: u2.anmu.one, port: 18182, type: vmess, uuid: 94907fa7-91ec-4671-bb2a-e69acf1cba08, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: Cat黑科技_55, server: 188.166.213.38, port: 11101, type: trojan, password: 78dc3aee-1958-4a38-a36f-4c5c9baab001, skip-cert-verify: true, udp: true}
+  - {name: 该资源一直是免费分享, server: fl.zimu.ga, port: 37628, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 新加坡|公众号:子木黑科技, server: fl.zimu.ga, port: 37615, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 韩国|公众号:子木黑科技, server: fl.zimu.ga, port: 37621, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 美国|公众号:子木黑科技+2, server: fl.zimu.ga, port: 37626, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 德国|公众号:子木黑科技, server: fl.zimu.ga, port: 37613, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 澳大利亚|公众号:子木黑科技, server: fl.zimu.ga, port: 37629, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 英国|公众号:子木黑科技, server: fl.zimu.ga, port: 37614, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 如果你是花钱买的说明你被骗了, server: fl.zimu.ga, port: 37627, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 美国|公众号:子木黑科技, server: fl.zimu.ga, port: 37625, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 加拿大|公众号:子木黑科技, server: fl.zimu.ga, port: 37618, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 巴西|公众号:子木黑科技, server: fl.zimu.ga, port: 37617, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 印度|公众号:子木黑科技, server: fl.zimu.ga, port: 37623, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
+  - {name: 俄罗斯|公众号:子木黑科技, server: fl.zimu.ga, port: 37630, type: ss, cipher: chacha20-ietf-poly1305, password: 44381ab8-05f3-4801-b250-079d5b6f59c7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -260,61 +92,19 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -325,182 +115,56 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -516,61 +180,19 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Cat黑科技_1
-      - Cat黑科技_2
-      - Cat黑科技_3
-      - Cat黑科技_4
-      - Cat黑科技_5
-      - Cat黑科技_6
-      - Cat黑科技_7
-      - Cat黑科技_8
-      - Cat黑科技_9
-      - Cat黑科技_10
-      - Cat黑科技_11
-      - Cat黑科技_12
-      - Cat黑科技_13
-      - Cat黑科技_14
-      - Cat黑科技_15
-      - Cat黑科技_16
-      - Cat黑科技_17
-      - Cat黑科技_18
-      - Cat黑科技_19
-      - Cat黑科技_20
-      - Cat黑科技_21
-      - Cat黑科技_22
-      - Cat黑科技_23
-      - Cat黑科技_24
-      - Cat黑科技_25
-      - Cat黑科技_26
-      - Cat黑科技_27
-      - Cat黑科技_28
-      - Cat黑科技_29
-      - Cat黑科技_30
-      - Cat黑科技_31
-      - Cat黑科技_32
-      - Cat黑科技_33
-      - Cat黑科技_34
-      - Cat黑科技_35
-      - Cat黑科技_36
-      - Cat黑科技_37
-      - Cat黑科技_38
-      - Cat黑科技_39
-      - Cat黑科技_40
-      - Cat黑科技_41
-      - Cat黑科技_42
-      - Cat黑科技_43
-      - Cat黑科技_44
-      - Cat黑科技_45
-      - Cat黑科技_46
-      - Cat黑科技_47
-      - Cat黑科技_48
-      - Cat黑科技_49
-      - Cat黑科技_50
-      - Cat黑科技_51
-      - Cat黑科技_52
-      - Cat黑科技_53
-      - Cat黑科技_54
-      - Cat黑科技_55
+      - 该资源一直是免费分享
+      - 新加坡|公众号:子木黑科技
+      - 韩国|公众号:子木黑科技
+      - 美国|公众号:子木黑科技+2
+      - 德国|公众号:子木黑科技
+      - 澳大利亚|公众号:子木黑科技
+      - 英国|公众号:子木黑科技
+      - 如果你是花钱买的说明你被骗了
+      - 美国|公众号:子木黑科技
+      - 加拿大|公众号:子木黑科技
+      - 巴西|公众号:子木黑科技
+      - 印度|公众号:子木黑科技
+      - 俄罗斯|公众号:子木黑科技
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
