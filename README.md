@@ -5,415 +5,111 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: CN_407, server: 120.240.168.118, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
   - {name: Relay_🇸🇬SG-🇯🇵JP_723, server: 159.27.115.21, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 159.27.115.21}, udp: true}
-  - {name: 香港 11, server: hka1.bosaidong.buzz, port: 443, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 香港 12, server: gdct.ayanami.best, port: 22222, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: JP_418, server: jgwcc3.gaox.ml, port: 443, type: trojan, password: b291d129-ee55-4801-a9b8-b5316e5c37b7, sni: jgwcc3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_338, server: jike1-gzyd.jiserver.xyz, port: 38559, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-gzyd.jiserver.xyz}, udp: true}
-  - {name: CN_86 |15.58Mb, server: shlt.jiserver.xyz, port: 39999, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: shlt.jiserver.xyz}, udp: true}
-  - {name: 台湾, server: tw01.ayanami.best, port: 80, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: JP_839 |10.82Mb, server: v2.godlight.xyz, port: 26941, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dajdklw231f, ws-headers: {Host: v2.godlight.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_380, server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: SG_1332 |28.34Mb, server: v2-2.godlight.xyz, port: 30541, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
+  - {name: Relay_🇨🇳CN-🇮🇳IN_382, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
   - {name: AU_19, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 注意:该资源一直是免费分享的, server: ddns-jp01.ayanami.best, port: 80, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: US_143 TG@peekfun, server: jgwdj2.gaox.ml, port: 443, type: trojan, password: 86231db5-96d0-4271-9977-cae3a0cba614, sni: jgwdj2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: 香港 3, server: hk03.bosaidong.buzz, port: 80, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 香港 5, server: hk01.bosaidong.buzz, port: 443, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
-  - {name: Relay_🇺🇸+US-🇺🇸US_1231, server: azhk2.mayiyun.vip, port: 10015, type: ss, cipher: aes-256-gcm, password: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f, udp: true}
-  - {name: 香港 6, server: hk02.bosaidong.buzz, port: 444, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
-  - {name: Relay_🇺🇸+US-🇺🇸US_1228, server: azhk7.mayiyun.vip, port: 10014, type: ss, cipher: aes-256-gcm, password: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f, udp: true}
-  - {name: US_2986, server: 20.205.113.88, port: 80, type: vmess, uuid: 46935c0a-5bb7-4828-9a7d-7fb3f7c2e0a6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: 20.205.113.88}, udp: true}
-  - {name: 香港 9, server: hk02.bosaidong.buzz, port: 443, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Relay_🇭🇰+HK-🇭🇰HK_727, server: azhk1.mayiyun.vip, port: 10014, type: ss, cipher: aes-256-gcm, password: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f, udp: true}
-  - {name: 香港 8, server: hk01.bosaidong.buzz, port: 444, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: ZZ_4055, server: 103.172.116.9, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: Relay_🇭🇰HK-🇭🇰HK_14, server: an011.oioav.com, port: 11011, type: vmess, uuid: 55af954a-7634-4f28-8acf-8a64ca9fc4cd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /oioav, ws-headers: {Host: an011.oioav.com}, udp: true}
-  - {name: Relay_🇺🇸+US-🇺🇸US_1229, server: azhk4.mayiyun.vip, port: 10015, type: ss, cipher: chacha20-ietf-poly1305, password: 9e1691df-0661-4ac7-bc58-37bf08f8bb7f, udp: true}
-  - {name: 香港 10, server: hk03.bosaidong.buzz, port: 443, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 公众号:子木黑科技, server: ddns-kr01.ayanami.best, port: 80, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 如果你是花钱买的说明你被骗了, server: ddns-jp02.ayanami.best, port: 80, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 香港, server: hk01.bosaidong.buzz, port: 80, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 香港 2, server: hk02.bosaidong.buzz, port: 80, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: CN_320, server: jike1-cccn2.jiserver.xyz, port: 27805, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-cccn2.jiserver.xyz}, udp: true}
-  - {name: 香港 7, server: hk03.bosaidong.buzz, port: 444, type: vmess, uuid: ca5ec27f-d2d4-4c06-902b-d96cfcc65e85, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /TS/recharge/tzUrl.html, ws-headers: {Host: gd.189.cn}, udp: true}
-  - {name: "|+8.73Mb", server: 157.230.41.220, port: 29596, type: ss, cipher: aes-256-cfb, password: e6c1cf51375c407d92d110881a825acb, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君), server: 149.28.65.119, port: 36145, type: vmess, uuid: 7c642705-d6f4-4cbe-a7c7-2fa4d75e6ce4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hKjPknHm/, ws-headers: {Host: 149.28.65.119}, udp: true}
-  - {name: "|51.40Mb", server: 149.28.65.119, port: 36145, type: vmess, uuid: 7c642705-d6f4-4cbe-a7c7-2fa4d75e6ce4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hKjPknHm/, ws-headers: {Host: 149.28.65.119}, udp: true}
-  - {name: Relay_🇿🇦ZA-🇿🇦ZA_3024, server: us1.lolvps.xyz, port: 60060, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
-  - {name: ZZ_4054, server: 103.172.116.9, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: CN_64, server: 183.232.56.108, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 183.232.56.108}, udp: true}
-  - {name: ZZ_4059, server: 103.172.116.9, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: US_194, server: jgwhdlb2.gaox.ml, port: 443, type: trojan, password: 54080134-2cba-4535-8599-95650bd9aa54, sni: jgwhdlb2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "|10.83Mb", server: 103.172.116.9, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: CN_292, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: FR_425, server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|+7.37Mb", server: 103.172.116.9, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: CN_293, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_302, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_55+|+5.82Mb, server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_378, server: 112.64.53.217, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
+  - {name: KR_875 | 7.41Mb, server: v2-5.godlight.xyz, port: 39741, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
   - {name: CN_68, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: 183.232.56.108}, udp: true}
-  - {name: Youtube@One·资源核, server: 169.197.141.15, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 2, server: 38.91.100.150, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube@One·资源核 3, server: 38.91.100.150, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Youtube@One·资源核 4, server: 169.197.141.15, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Youtube@One·资源核 5, server: 169.197.141.15, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 6, server: 38.91.100.150, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Youtube@One·资源核 7, server: 38.91.100.150, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 8, server: 169.197.141.15, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Youtube@One·资源核 9, server: 38.91.100.150, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: Youtube@One·资源核 10, server: 38.91.100.150, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtube@One·资源核 11, server: 38.91.100.150, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 12, server: 38.91.100.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|12.33Mb", server: 103.172.116.9, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: ube@One·资源核, server: 169.197.141.15, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube@One·资源核 13, server: 169.197.141.15, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Youtube@One·资源核 14, server: 38.91.100.150, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube@One·资源核 15, server: 38.91.100.150, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube@One·资源核 16, server: 169.197.141.15, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube@One·资源核 17, server: 38.91.100.150, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtube@One·资源核 18, server: 169.197.141.15, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|46.94Mb", server: 134.195.196.206, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 19, server: 38.91.100.150, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Youtube@One·资源核 20, server: 134.195.196.206, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtube@One·资源核 21, server: 38.91.100.150, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube@One·资源核 22, server: 134.195.196.206, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube@One·资源核 23, server: 134.195.196.206, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 24, server: 134.195.196.206, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: CN_291, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_69 | 2.74Mb, server: jike1-cccn2.jiserver.xyz, port: 32603, type: vmess, uuid: 221828e0-4192-342c-99fc-9a0af6e06823, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-cccn2.jiserver.xyz}, udp: true}
-  - {name: ZZ_4061, server: 103.172.116.9, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: Youtube@One·资源核 25, server: 134.195.196.206, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube@One·资源核 26, server: 169.197.141.15, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Youtube@One·资源核 27, server: 134.195.196.206, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|43.84Mb", server: 134.195.196.206, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Youtube@One·资源核 28, server: 134.195.196.206, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: Youtube@One·资源核 29, server: 134.195.196.206, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: Youtube@One·资源核 30, server: 38.91.100.150, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 31, server: 134.195.196.206, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Youtube@One·资源核 32, server: 134.195.196.206, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube@One·资源核 33, server: 38.91.100.150, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: Youtube@One·资源核 34, server: 134.195.196.206, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 35, server: 134.195.196.206, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: Youtube@One·资源核 36, server: 134.195.196.206, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: Youtube@One·资源核 37, server: 134.195.196.206, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: Youtube@One·资源核 38, server: 134.195.196.206, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Youtube@One·资源核 39, server: 134.195.196.206, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: Youtube@One·资源核 40, server: 134.195.196.206, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Youtube@One·资源核 41, server: 134.195.196.206, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CA_210, server: 72.140.224.197, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Youtube@One·资源核 42, server: 134.195.196.206, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|+3.65Mb", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Youtube@One·资源核 43, server: 38.91.100.150, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: Youtube@One·资源核 44, server: 38.91.100.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: 注意:该资源一直是免费分享的, server: cdn2.myuuusss.com, port: 44221, type: ss, cipher: chacha20-ietf-poly1305, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 如果你是花钱买的说明你被骗了, server: cdn2.myuuusss.com, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 公众号:子木黑科技, server: cdn2.myuuusss.com, port: 20685, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 荷兰, server: cdn2.myuuusss.com, port: 20097, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 澳洲, server: cdn2.myuuusss.com, port: 28077, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 日本, server: cdn2.myuuusss.com, port: 20024, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 香港 2, server: cdn2.myuuusss.com, port: 37006, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 日本 2, server: cdn2.myuuusss.com, port: 37003, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
+  - {name: 香港 3, server: hk-c2.myuuusss.com, port: 80, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c2.myuuusss.com}, udp: true}
+  - {name: 香港 4, server: hk-c3.myuuusss.com, port: 80, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c3.myuuusss.com}, udp: true}
+  - {name: 香港 5, server: hk-c2.myuuusss.com, port: 443, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c2.myuuusss.com}, udp: true}
+  - {name: 香港 6, server: hk-c3.myuuusss.com, port: 443, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c3.myuuusss.com}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -432,431 +128,120 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 11
-      - 香港 12
-      - 台湾
+      - 香港 2
       - 香港 3
+      - 香港 4
       - 香港 5
       - 香港 6
-      - 香港 9
-      - 香港 8
-      - 香港 10
-      - 香港
-      - 香港 2
-      - 香港 7
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -872,104 +257,28 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - CN_407
       - Relay_🇸🇬SG-🇯🇵JP_723
-      - 香港 11
-      - 香港 12
-      - JP_418
-      - Relay_🇨🇳CN-🇺🇸US_338
-      - CN_86 |15.58Mb
-      - 台湾
+      - JP_839 |10.82Mb
+      - Relay_🇨🇳CN-🇮🇳IN_380
+      - SG_1332 |28.34Mb
+      - Relay_🇨🇳CN-🇮🇳IN_382
       - AU_19
-      - 注意:该资源一直是免费分享的
-      - US_143 TG@peekfun
-      - 香港 3
-      - 香港 5
-      - Relay_🇺🇸+US-🇺🇸US_1231
-      - 香港 6
-      - Relay_🇺🇸+US-🇺🇸US_1228
-      - US_2986
-      - 香港 9
-      - Relay_🇭🇰+HK-🇭🇰HK_727
-      - 香港 8
-      - ZZ_4055
-      - Relay_🇭🇰HK-🇭🇰HK_14
-      - Relay_🇺🇸+US-🇺🇸US_1229
-      - 香港 10
-      - 公众号:子木黑科技
-      - 如果你是花钱买的说明你被骗了
-      - 香港
-      - 香港 2
-      - CN_320
-      - 香港 7
-      - "|+8.73Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君)
-      - "|51.40Mb"
-      - Relay_🇿🇦ZA-🇿🇦ZA_3024
-      - ZZ_4054
-      - CN_64
-      - ZZ_4059
-      - US_194
-      - "|10.83Mb"
-      - CN_292
-      - FR_425
-      - "|+7.37Mb"
-      - CN_293
-      - CN_302
-      - CN_55+|+5.82Mb
+      - Relay_🇨🇳CN-🇺🇸US_378
+      - KR_875 | 7.41Mb
       - CN_68
-      - Youtube@One·资源核
-      - Youtube@One·资源核 2
-      - Youtube@One·资源核 3
-      - Youtube@One·资源核 4
-      - Youtube@One·资源核 5
-      - Youtube@One·资源核 6
-      - Youtube@One·资源核 7
-      - Youtube@One·资源核 8
-      - Youtube@One·资源核 9
-      - Youtube@One·资源核 10
-      - Youtube@One·资源核 11
-      - Youtube@One·资源核 12
-      - "|12.33Mb"
-      - ube@One·资源核
-      - Youtube@One·资源核 13
-      - Youtube@One·资源核 14
-      - Youtube@One·资源核 15
-      - Youtube@One·资源核 16
-      - Youtube@One·资源核 17
-      - Youtube@One·资源核 18
-      - "|46.94Mb"
-      - Youtube@One·资源核 19
-      - Youtube@One·资源核 20
-      - Youtube@One·资源核 21
-      - Youtube@One·资源核 22
-      - Youtube@One·资源核 23
-      - Youtube@One·资源核 24
-      - CN_291
-      - CN_69 | 2.74Mb
-      - ZZ_4061
-      - Youtube@One·资源核 25
-      - Youtube@One·资源核 26
-      - Youtube@One·资源核 27
-      - "|43.84Mb"
-      - Youtube@One·资源核 28
-      - Youtube@One·资源核 29
-      - Youtube@One·资源核 30
-      - Youtube@One·资源核 31
-      - Youtube@One·资源核 32
-      - Youtube@One·资源核 33
-      - Youtube@One·资源核 34
-      - Youtube@One·资源核 35
-      - Youtube@One·资源核 36
-      - Youtube@One·资源核 37
-      - Youtube@One·资源核 38
-      - Youtube@One·资源核 39
-      - Youtube@One·资源核 40
-      - Youtube@One·资源核 41
-      - CA_210
-      - Youtube@One·资源核 42
-      - "|+3.65Mb"
-      - Youtube@One·资源核 43
-      - Youtube@One·资源核 44
+      - 注意:该资源一直是免费分享的
+      - 如果你是花钱买的说明你被骗了
+      - 公众号:子木黑科技
+      - 荷兰
+      - 澳洲
+      - 日本
+      - 香港 2
+      - 日本 2
+      - 香港 3
+      - 香港 4
+      - 香港 5
+      - 香港 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
