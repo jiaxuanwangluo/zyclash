@@ -5,111 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_407, server: 120.240.168.118, port: 63004, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 120.240.168.118}, udp: true}
-  - {name: Relay_🇸🇬SG-🇯🇵JP_723, server: 159.27.115.21, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: 159.27.115.21}, udp: true}
-  - {name: JP_839 |10.82Mb, server: v2.godlight.xyz, port: 26941, type: vmess, uuid: 1a059eff-ad8a-42ad-921c-465c5b31f183, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /dajdklw231f, ws-headers: {Host: v2.godlight.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇳IN_380, server: 120.240.168.118, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: SG_1332 |28.34Mb, server: v2-2.godlight.xyz, port: 30541, type: vmess, uuid: 43308d27-94ec-408e-a8f6-d682cfb99ca9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /54f634fs, ws-headers: {Host: v2-2.godlight.xyz}, udp: true}
-  - {name: Relay_🇨🇳CN-🇮🇳IN_382, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: AU_19, server: 129.154.48.221, port: 37372, type: vmess, uuid: 6f4454a9-e732-46c6-c50f-73f13da31f7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_378, server: 112.64.53.217, port: 63086, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: t.me/vpnhat}, udp: true}
-  - {name: KR_875 | 7.41Mb, server: v2-5.godlight.xyz, port: 39741, type: vmess, uuid: 767e55a4-43fa-4301-a9c2-ad30eaa9f61a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /71h4b3s1f53, ws-headers: {Host: v2-5.godlight.xyz}, udp: true}
-  - {name: CN_68, server: 183.232.56.108, port: 63051, type: vmess, uuid: 49a0585b-6abe-3e62-ae2e-aacf364d88c0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /hls, ws-headers: {Host: 183.232.56.108}, udp: true}
-  - {name: 注意:该资源一直是免费分享的, server: cdn2.myuuusss.com, port: 44221, type: ss, cipher: chacha20-ietf-poly1305, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 如果你是花钱买的说明你被骗了, server: cdn2.myuuusss.com, port: 30043, type: ss, cipher: chacha20-ietf-poly1305, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 公众号:子木黑科技, server: cdn2.myuuusss.com, port: 20685, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 荷兰, server: cdn2.myuuusss.com, port: 20097, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 澳洲, server: cdn2.myuuusss.com, port: 28077, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 日本, server: cdn2.myuuusss.com, port: 20024, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 香港 2, server: cdn2.myuuusss.com, port: 37006, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 日本 2, server: cdn2.myuuusss.com, port: 37003, type: ss, cipher: aes-128-gcm, password: 7889a1ee-6d1b-4097-8195-87d001d5f924, udp: true}
-  - {name: 香港 3, server: hk-c2.myuuusss.com, port: 80, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c2.myuuusss.com}, udp: true}
-  - {name: 香港 4, server: hk-c3.myuuusss.com, port: 80, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c3.myuuusss.com}, udp: true}
-  - {name: 香港 5, server: hk-c2.myuuusss.com, port: 443, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c2.myuuusss.com}, udp: true}
-  - {name: 香港 6, server: hk-c3.myuuusss.com, port: 443, type: vmess, uuid: 7889a1ee-6d1b-4097-8195-87d001d5f924, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk-c3.myuuusss.com}, udp: true}
+  - {name: 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
+  - {name: 香港, server: gdct.ayanami.best, port: 22222, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 香港 2, server: hka1.bosaidong.buzz, port: 443, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 建议使用前先更新下订阅, server: ddns-jp01.ayanami.best, port: 80, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 公众号:子木黑科技, server: ddns-kr01.ayanami.best, port: 80, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 香港 3, server: hk02.bosaidong.buzz, port: 80, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
+  - {name: 香港 4, server: hk01.bosaidong.buzz, port: 444, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 香港 5, server: hk02.bosaidong.buzz, port: 443, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -128,120 +72,64 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港
       - 香港 2
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -257,28 +145,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_407
-      - Relay_🇸🇬SG-🇯🇵JP_723
-      - JP_839 |10.82Mb
-      - Relay_🇨🇳CN-🇮🇳IN_380
-      - SG_1332 |28.34Mb
-      - Relay_🇨🇳CN-🇮🇳IN_382
-      - AU_19
-      - Relay_🇨🇳CN-🇺🇸US_378
-      - KR_875 | 7.41Mb
-      - CN_68
-      - 注意:该资源一直是免费分享的
-      - 如果你是花钱买的说明你被骗了
-      - 公众号:子木黑科技
-      - 荷兰
-      - 澳洲
-      - 日本
+      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
+      - 香港
       - 香港 2
-      - 日本 2
+      - 建议使用前先更新下订阅
+      - 公众号:子木黑科技
       - 香港 3
       - 香港 4
       - 香港 5
-      - 香港 6
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10480,3 +10354,4 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
