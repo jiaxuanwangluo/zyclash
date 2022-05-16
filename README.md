@@ -5,55 +5,87 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529, server: 116.129.253.130, port: 3389, type: trojan, password: f6f2072a2e4cfc91, skip-cert-verify: true, udp: true}
-  - {name: 香港, server: gdct.ayanami.best, port: 22222, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 香港 2, server: hka1.bosaidong.buzz, port: 443, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 建议使用前先更新下订阅, server: ddns-jp01.ayanami.best, port: 80, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 公众号:子木黑科技, server: ddns-kr01.ayanami.best, port: 80, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 香港 3, server: hk02.bosaidong.buzz, port: 80, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: tms.dingtalk.com}, udp: true}
-  - {name: 香港 4, server: hk01.bosaidong.buzz, port: 444, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: 香港 5, server: hk02.bosaidong.buzz, port: 443, type: vmess, uuid: c2eeb2e9-619c-42c5-8d6e-ae826b0fa614, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /JJkuv3, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: 香港 II, server: bb1.158801.xyz, port: 22543, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 I, server: bb1.158801.xyz, port: 22542, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 V, server: bb2.158801.xyz, port: 22542, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb2.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 III, server: bb1.158801.xyz, port: 22544, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: 香港 IV, server: bb2.158801.xyz, port: 22541, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb2.158801.xyz, skip-cert-verify: true, udp: true}
+  - {name: 建议使用前先更新下订阅, server: 140.207.232.28, port: 21018, type: trojan, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, skip-cert-verify: true, udp: true}
+  - {name: 公众号:子木黑科技, server: 36.138.177.3, port: 22001, type: trojan, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, skip-cert-verify: true, udp: true}
+  - {name: "该资源一直免费分享,从未收费", server: 183.232.250.97, port: 37630, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 日本02, server: 183.232.250.97, port: 37632, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 台湾01, server: 183.232.250.97, port: 46325, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 台湾02, server: 140.207.232.28, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 台湾03, server: 140.207.232.28, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 台湾04, server: 140.207.232.28, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 新加坡01, server: 140.207.232.28, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 新加坡02, server: 140.207.232.28, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: 新加坡03, server: 140.207.232.28, port: 21011, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,64 +104,100 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港
-      - 香港 2
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,14 +213,22 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 【tg@freevpn8】_🇨🇳 CN-🇹🇼TW_529
-      - 香港
-      - 香港 2
+      - 香港 II
+      - 香港 I
+      - 香港 V
+      - 香港 III
+      - 香港 IV
       - 建议使用前先更新下订阅
       - 公众号:子木黑科技
-      - 香港 3
-      - 香港 4
-      - 香港 5
+      - 该资源一直免费分享,从未收费
+      - 日本02
+      - 台湾01
+      - 台湾02
+      - 台湾03
+      - 台湾04
+      - 新加坡01
+      - 新加坡02
+      - 新加坡03
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
