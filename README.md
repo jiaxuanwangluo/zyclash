@@ -5,87 +5,231 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 香港 II, server: bb1.158801.xyz, port: 22543, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 I, server: bb1.158801.xyz, port: 22542, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 V, server: bb2.158801.xyz, port: 22542, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb2.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 III, server: bb1.158801.xyz, port: 22544, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb1.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 IV, server: bb2.158801.xyz, port: 22541, type: trojan, password: 89832258-2a95-4c11-b0ac-466c46cb2956, sni: bb2.158801.xyz, skip-cert-verify: true, udp: true}
-  - {name: 建议使用前先更新下订阅, server: 140.207.232.28, port: 21018, type: trojan, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, skip-cert-verify: true, udp: true}
-  - {name: 公众号:子木黑科技, server: 36.138.177.3, port: 22001, type: trojan, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, skip-cert-verify: true, udp: true}
-  - {name: "该资源一直免费分享,从未收费", server: 183.232.250.97, port: 37630, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 日本02, server: 183.232.250.97, port: 37632, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 台湾01, server: 183.232.250.97, port: 46325, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 台湾02, server: 140.207.232.28, port: 21007, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 台湾03, server: 140.207.232.28, port: 21006, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 台湾04, server: 140.207.232.28, port: 21008, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 新加坡01, server: 140.207.232.28, port: 21009, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 新加坡02, server: 140.207.232.28, port: 21010, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
-  - {name: 新加坡03, server: 140.207.232.28, port: 21011, type: ss, cipher: chacha20-ietf-poly1305, password: 7d4226d1-2fe4-4dd6-b524-d797e653fa09, udp: true}
+  - {name: Cat黑科技_1, server: 116.10.184.242, port: 10015, type: ss, cipher: aes-256-gcm, password: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, udp: true}
+  - {name: Cat黑科技_2, server: 171.107.184.84, port: 8080, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_3, server: 113.17.169.22, port: 8080, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_4, server: 103.167.196.16, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpngiare.net, ws-headers: {Host: vpngiare.akamaized.net}, udp: true}
+  - {name: Cat黑科技_5, server: m.mjmjmjmj.cyou, port: 16627, type: vmess, uuid: 0cc037af-4cb7-49d3-8ef6-23cbfc7b08af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.mjmjmjmj.cyou}, udp: true}
+  - {name: Cat黑科技_6, server: 116.10.184.242, port: 10014, type: ss, cipher: aes-256-gcm, password: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, udp: true}
+  - {name: Cat黑科技_7, server: dnsfree01.theworkpc.com, port: 80, type: vmess, uuid: 3e0a6f9a-a478-4752-900d-837b39d70792, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /images, ws-headers: {Host: v.qq.com}, udp: true}
+  - {name: Cat黑科技_8, server: 43.154.73.81, port: 80, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ll, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_9, server: m.mjmjmjmj.cyou, port: 16620, type: vmess, uuid: 0cc037af-4cb7-49d3-8ef6-23cbfc7b08af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: m.mjmjmjmj.cyou}, udp: true}
+  - {name: Cat黑科技_10, server: 120.233.185.189, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: Vm1wS01GWXhVbkpOVm1oV1lUSlNjVlZ0ZUV0VlZscHlWbTVrYWxac1dqRlpNRnByWVRKS1NGVnNhRnBXVm5CTFZVWkZPVkJSUFQw, udp: true}
+  - {name: Cat黑科技_11, server: 43.248.139.151, port: 10019, type: ss, cipher: aes-256-gcm, password: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, udp: true}
+  - {name: Cat黑科技_12, server: 116.10.184.242, port: 8080, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_13, server: 43.248.139.151, port: 10017, type: ss, cipher: aes-256-gcm, password: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, udp: true}
+  - {name: Cat黑科技_14, server: 158.101.149.77, port: 10014, type: ss, cipher: chacha20-ietf-poly1305, password: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, udp: true}
+  - {name: Cat黑科技_15, server: 120.233.185.189, port: 11806, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: Vm1wS01GWXhVbkpOVm1oV1lUSlNjVlZ0ZUV0VlZscHlWbTVrYWxac1dqRlpNRnByWVRKS1NGVnNhRnBXVm5CTFZVWkZPVkJSUFQw, udp: true}
+  - {name: Cat黑科技_16, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: Vm1wS01GWXhVbkpOVm1oV1lUSlNjVlZ0ZUV0VlZscHlWbTVrYWxac1dqRlpNRnByWVRKS1NGVnNhRnBXVm5CTFZVWkZPVkJSUFQw, udp: true}
+  - {name: Cat黑科技_17, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: Vm1wS01GWXhVbkpOVm1oV1lUSlNjVlZ0ZUV0VlZscHlWbTVrYWxac1dqRlpNRnByWVRKS1NGVnNhRnBXVm5CTFZVWkZPVkJSUFQw, udp: true}
+  - {name: Cat黑科技_18, server: 150.230.221.108, port: 443, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_19, server: 43.248.139.151, port: 10021, type: ss, cipher: aes-256-gcm, password: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, udp: true}
+  - {name: Cat黑科技_20, server: 158.101.149.77, port: 80, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_21, server: t.mjmjmjmj.cyou, port: 16627, type: vmess, uuid: 0cc037af-4cb7-49d3-8ef6-23cbfc7b08af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: t.mjmjmjmj.cyou}, udp: true}
+  - {name: Cat黑科技_22, server: 158.101.149.77, port: 443, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_23, server: 116.10.184.242, port: 10016, type: ss, cipher: aes-256-gcm, password: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, udp: true}
+  - {name: Cat黑科技_24, server: azhj001.xiba1.xyz, port: 20720, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_25, server: azhj001.xiba1.xyz, port: 20727, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_26, server: 152.67.223.146, port: 80, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_27, server: 120.233.185.189, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: ZEM1dFpTOTJjRzVvWVhR, udp: true}
+  - {name: Cat黑科技_28, server: hk6.ningmengshui.xyz, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: hk6.ningmengshui.xyz}, udp: true}
+  - {name: Cat黑科技_29, server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Cat黑科技_30, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_31, server: 144.24.89.156, port: 80, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_32, server: azhj001.xiba1.xyz, port: 20715, type: trojan, password: 5abd9b83-295e-35e4-b0b3-deed61eea35f, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_33, server: 20.24.64.87, port: 80, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ll, ws-headers: {Host: down.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_34, server: 165.154.243.208, port: 28443, type: trojan, password: 6d2b7ae6-7b67-4116-b6ae-3069c54d2042, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_35, server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: 965425cb-5d9e-306a-94bf-9961dd0ecf17, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_36, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: 965425cb-5d9e-306a-94bf-9961dd0ecf17, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_37, server: 20.24.64.87, port: 80, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ll, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Cat黑科技_38, server: us1.lolvps.xyz, port: 60070, type: vmess, uuid: 95886c76-9207-48bd-9e64-d1422e75ad89, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /AY920UMR, ws-headers: {Host: us1.lolvps.xyz}, udp: true}
+  - {name: Cat黑科技_39, server: azgy001.xiba1.xyz, port: 20711, type: trojan, password: 965425cb-5d9e-306a-94bf-9961dd0ecf17, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_40, server: ru1.nodegz.top, port: 443, type: trojan, password: 5e5f8e9c-36b3-3b3c-9e6c-c0e7635621b1, sni: ru1.nodegz.top, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_41, server: azgy001.xiba1.xyz, port: 20710, type: trojan, password: 965425cb-5d9e-306a-94bf-9961dd0ecf17, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_42, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_43, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_44, server: 116.129.253.177, port: 3389, type: trojan, password: e37c6d7efa845d60, skip-cert-verify: true, udp: true}
+  - {name: Cat黑科技_45, server: vietnam.hn11.shopvpn.net, port: 80, type: vmess, uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shopvpn.net, ws-headers: {Host: vietnam.hn11.shopvpn.net}, udp: true}
+  - {name: Cat黑科技_46, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Cat黑科技_47, server: g.mjmjmjmj.cyou, port: 16616, type: vmess, uuid: 0cc037af-4cb7-49d3-8ef6-23cbfc7b08af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: g.mjmjmjmj.cyou}, udp: true}
+  - {name: Cat黑科技_48, server: 138.3.247.155, port: 80, type: vmess, uuid: 44d3f9d0-ed47-4a5d-9cdd-a5f44f1e2dce, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: open.dingtalk.com}, udp: true}
+  - {name: Cat黑科技_49, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: Cat黑科技_50, server: 103.175.147.161, port: 80, type: vmess, uuid: 3849e48e-f276-4612-a1b9-6f07d1ab1bad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /vpngiare.net, ws-headers: {Host: vpngiare.akamaized.net}, udp: true}
+  - {name: Cat黑科技_51, server: 54.37.192.112, port: 443, type: vmess, uuid: 9f58234c-355b-4065-ae21-d4a63099aba5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/120208301422, ws-headers: {Host: 54.37.192.112}, udp: true}
+  - {name: Cat黑科技_52, server: singapore2.shopvpn.net, port: 80, type: vmess, uuid: 23959a9d-be8b-45d7-b284-5a3f9f29039a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /shopvpn.net, ws-headers: {Host: quangtien.akamaized.net}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -104,100 +248,235 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -213,22 +492,58 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 香港 II
-      - 香港 I
-      - 香港 V
-      - 香港 III
-      - 香港 IV
-      - 建议使用前先更新下订阅
-      - 公众号:子木黑科技
-      - 该资源一直免费分享,从未收费
-      - 日本02
-      - 台湾01
-      - 台湾02
-      - 台湾03
-      - 台湾04
-      - 新加坡01
-      - 新加坡02
-      - 新加坡03
+      - Cat黑科技_1
+      - Cat黑科技_2
+      - Cat黑科技_3
+      - Cat黑科技_4
+      - Cat黑科技_5
+      - Cat黑科技_6
+      - Cat黑科技_7
+      - Cat黑科技_8
+      - Cat黑科技_9
+      - Cat黑科技_10
+      - Cat黑科技_11
+      - Cat黑科技_12
+      - Cat黑科技_13
+      - Cat黑科技_14
+      - Cat黑科技_15
+      - Cat黑科技_16
+      - Cat黑科技_17
+      - Cat黑科技_18
+      - Cat黑科技_19
+      - Cat黑科技_20
+      - Cat黑科技_21
+      - Cat黑科技_22
+      - Cat黑科技_23
+      - Cat黑科技_24
+      - Cat黑科技_25
+      - Cat黑科技_26
+      - Cat黑科技_27
+      - Cat黑科技_28
+      - Cat黑科技_29
+      - Cat黑科技_30
+      - Cat黑科技_31
+      - Cat黑科技_32
+      - Cat黑科技_33
+      - Cat黑科技_34
+      - Cat黑科技_35
+      - Cat黑科技_36
+      - Cat黑科技_37
+      - Cat黑科技_38
+      - Cat黑科技_39
+      - Cat黑科技_40
+      - Cat黑科技_41
+      - Cat黑科技_42
+      - Cat黑科技_43
+      - Cat黑科技_44
+      - Cat黑科技_45
+      - Cat黑科技_46
+      - Cat黑科技_47
+      - Cat黑科技_48
+      - Cat黑科技_49
+      - Cat黑科技_50
+      - Cat黑科技_51
+      - Cat黑科技_52
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10430,4 +10745,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
