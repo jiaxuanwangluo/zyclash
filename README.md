@@ -5,103 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_20, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20721, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20726, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20723, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20725, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |, server: azgy001.xiba1.xyz, port: 6003, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20724, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t", server: azgy001.xiba1.xyz, port: 6004, type: trojan, password: bb72ed6f-0c7e-31e8-9ec8-8479cd2cf29b, sni: azgy001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: CN_74, server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF, server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: 美国优化-tg频道:@ripaojiedian, server: 625us.ok365.cyou, port: 443, type: trojan, password: 2523fe1a-1295-4525-be2c-d78ff1465d2a, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb, server: 120.233.185.189, port: 11851, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb, server: 120.233.185.189, port: 11810, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: dC5tZS92cG5oYXQ, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb, server: 120.233.185.189, port: 11845, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
-  - {name: TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb, server: 120.233.185.189, port: 11842, type: ssr, cipher: chacha20-ietf, password: Fhbe0z, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: 13370:DqGDfE, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0, udp: true}
-  - {name: 台湾优化-tg频道:@ripaojiedian, server: 625tw.ok365.cyou, port: 443, type: trojan, password: 2523fe1a-1295-4525-be2c-d78ff1465d2a, sni: 625tw.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 专线|原生|亚洲|中国香港01, server: ink-gzzf-hk.inkiwike.com, port: 45457, type: vmess, uuid: 820aa5e5-4df6-4aaa-90a5-1cf80e32f238, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /iqiyi, ws-headers: {Host: iQiyi.com}, udp: true}
+  - {name: github.com/mianfeifq |美国--tg频道:@bpjzx2-10, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 0a8f3ff8-eb06-3384-85b2-e093d46f4368, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq |美国--tg频道:@bpjzx2-12, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: 21a2c71c-f446-3403-bcff-842b609c0447, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: github.com/mianfeifq |美国--tg频道:@bpjzx2-7, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: 21a2c71c-f446-3403-bcff-842b609c0447, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
+  - {name: NL-高速节点推荐：v1.mk/vip（浏览器打开）, server: 104.255.65.112, port: 30718, type: vmess, uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -120,116 +64,52 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -245,26 +125,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_20
-      - 香港  | Trojan | B | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | D | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | I | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | F | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | A | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | H | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 马来西亚 | Trojan | 體驗節點 |  A | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |
-      - 香港 | Trojan | G | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - 香港 | Trojan | E | 0.8x | 黃金 | 港區流媒體解鎖 |
-      - "马来西亚 | Trojan | 體驗套餐 | B | 1 | 25.0x | 官網 | ninihao.cc | 体验节点不等于付费节点效果 |\t"
-      - CN_74
-      - :中国-ss-14.29.124.168:25252-可用-直连-完全不支持NF
-      - _油管：全网最强白嫖
-      - 美国优化-tg频道:@ripaojiedian
-      - TG@moneyflychat  中转节点-🇸🇬SG_174 |28.58Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_188 |29.80Mb
-      - TG@moneyflychat  中转节点-🇭🇰HK_177 |27.20Mb
-      - TG@moneyflychat  中转节点-🇺🇸US_173 |17.78Mb
-      - 台湾优化-tg频道:@ripaojiedian
+      - 专线|原生|亚洲|中国香港01
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
+      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
+      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
+      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10466,3 +10332,4 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
