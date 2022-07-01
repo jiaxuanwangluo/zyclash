@@ -5,47 +5,55 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 专线|原生|亚洲|中国香港01, server: ink-gzzf-hk.inkiwike.com, port: 45457, type: vmess, uuid: 820aa5e5-4df6-4aaa-90a5-1cf80e32f238, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /iqiyi, ws-headers: {Host: iQiyi.com}, udp: true}
-  - {name: github.com/mianfeifq |美国--tg频道:@bpjzx2-10, server: azhj001.xiba1.xyz, port: 20719, type: trojan, password: 0a8f3ff8-eb06-3384-85b2-e093d46f4368, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/mianfeifq |美国--tg频道:@bpjzx2-12, server: azhj001.xiba1.xyz, port: 20718, type: trojan, password: 21a2c71c-f446-3403-bcff-842b609c0447, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: github.com/mianfeifq |美国--tg频道:@bpjzx2-7, server: azhj001.xiba1.xyz, port: 20722, type: trojan, password: 21a2c71c-f446-3403-bcff-842b609c0447, sni: azhj001.xiba1.xyz, skip-cert-verify: true, udp: true}
-  - {name: NL-高速节点推荐：v1.mk/vip（浏览器打开）, server: 104.255.65.112, port: 30718, type: vmess, uuid: f0f63386-d747-4d44-8d16-6e2d254f0ed3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 德国-河移双线负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-广移2双线负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 德国-广移双线负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 越南 | 广州移动, server: gzyd1.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
+  - {name: 台湾Hinet～广州移动+|+解锁流媒体, server: hnyd.52147.top, port: 49871, type: ss, cipher: chacha20-ietf-poly1305, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -64,52 +72,60 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 专线|原生|亚洲|中国香港01
+      - 台湾Hinet～广州移动+|+解锁流媒体
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -125,12 +141,14 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 专线|原生|亚洲|中国香港01
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-10
-      - github.com/mianfeifq |🇺🇸美国（欢迎订阅Youtube元亨利贞）_2
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-12
-      - github.com/mianfeifq |美国--tg频道:@bpjzx2-7
-      - NL-高速节点推荐：v1.mk/vip（浏览器打开）
+      - 德国-河移双线负载均衡 | 解锁流媒体
+      - 日本NTT-河南移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动负载均衡 | 解锁流媒体
+      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
+      - 德国-广移2双线负载均衡 | 解锁流媒体
+      - 德国-广移双线负载均衡 | 解锁流媒体
+      - 越南 | 广州移动
+      - 台湾Hinet～广州移动+|+解锁流媒体
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
