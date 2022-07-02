@@ -5,55 +5,119 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 德国-河移双线负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-河南移动负载均衡 | 解锁流媒体, server: hnyd.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: hnyd.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-广州移动负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 日本NTT-广州移动2负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30130, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 德国-广移2双线负载均衡 | 解锁流媒体, server: gzyd2.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd2.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 德国-广移双线负载均衡 | 解锁流媒体, server: gzyd1.52147.top, port: 30080, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 越南 | 广州移动, server: gzyd1.52147.top, port: 30120, type: trojan, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, sni: gzyd1.52147.top, skip-cert-verify: true, udp: true}
-  - {name: 台湾Hinet～广州移动+|+解锁流媒体, server: hnyd.52147.top, port: 49871, type: ss, cipher: chacha20-ietf-poly1305, password: 52a98419-efab-4c34-b4cc-4e2a7bc37029, udp: true}
+  - {name: CN 11｜openit.ml, server: 36.134.37.211, port: 17032, type: trojan, password: KClwEs06JK8ps3kmf2V5h, skip-cert-verify: true, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: iepl3.dcnode.me, port: 10043, type: ss, cipher: aes-128-gcm, password: 2daf156a-b9ee-4671-913a-4339ddd39021, udp: true}
+  - {name: CN 22｜openit.ml, server: 36.134.37.211, port: 16002, type: trojan, password: KClwEs06JK8ps3kmf2V5h, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇨🇳CN-🇺🇸US_08, server: 36.139.154.17, port: 45413, type: vmess, uuid: 20f731db-9c56-451f-b926-4e33186dfcbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 36.139.154.17}, udp: true}
+  - {name: github.com/freefq - 新加坡Digital Ocean数据中心 18, server: trojan2.udpgw.com, port: 443, type: trojan, password: 973ef350-f6a5-11ec-9274-1239d0255272, sni: trojan2.udpgw.com, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国惠普公司 24, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: SG_06 @WangCai_1, server: 194.124.35.26, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 香港_0701156, server: 10.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: 10.vip341.xyz}, udp: true}
+  - {name: CN_03, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: SG_10 @WangCai_1, server: 194.124.35.26, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 中国_0701208, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
+  - {name: SG 6｜openit.ml, server: awssg1.crunode.top, port: 16600, type: trojan, password: 02789373-e4d4-4b04-b85c-83b17c96225f, sni: awssg1.crunode.top, skip-cert-verify: true, udp: true}
+  - {name: SG_00 @WangCai_1, server: 194.124.35.24, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG_01 @WangCai_1, server: 194.124.35.24, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: SG_09 @WangCai_1, server: 194.124.35.24, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 13｜openit.ml, server: rn.tianxie.jp.eu.org, port: 443, type: trojan, password: c06bb8e0-7989-4885-9560-df320b7ce1d3, sni: rn.tianxie.jp.eu.org, skip-cert-verify: true, udp: true}
+  - {name: CN 3｜openit.ml, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: cbc7a068-88d9-4fe9-979c-a5781967fc07, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 10｜openit.ml, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: SG_07 @WangCai_1, server: 194.124.35.25, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 美国CloudFlare节点 21, server: 172.64.199.253, port: 443, type: vmess, uuid: 2ad6e16f-08e9-482d-ae7a-70d1b2ec7159, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Vmess, ws-headers: {Host: ca.922833.xyz}, udp: true}
+  - {name: 加拿大 002, server: 625us.ok365.cyou, port: 443, type: trojan, password: d6b70aec-bda5-4c5a-b37f-931ce32ded7b, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: US_35, server: 159.223.54.93, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: khiemdz.akamaized.net}, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 159.223.54.93, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.223.54.93}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -72,60 +136,124 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - 香港_0701156
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -141,14 +269,30 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 德国-河移双线负载均衡 | 解锁流媒体
-      - 日本NTT-河南移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动负载均衡 | 解锁流媒体
-      - 日本NTT-广州移动2负载均衡 | 解锁流媒体
-      - 德国-广移2双线负载均衡 | 解锁流媒体
-      - 德国-广移双线负载均衡 | 解锁流媒体
-      - 越南 | 广州移动
-      - 台湾Hinet～广州移动+|+解锁流媒体
+      - CN 11｜openit.ml
+      - 美国(TG频道:@kxswa)
+      - CN 22｜openit.ml
+      - Relay_🇨🇳CN-🇺🇸US_08
+      - github.com/freefq - 新加坡Digital Ocean数据中心 18
+      - github.com/freefq - 美国惠普公司 24
+      - SG_06 @WangCai_1
+      - 香港_0701156
+      - CN_03
+      - SG_10 @WangCai_1
+      - 中国_0701208
+      - SG 6｜openit.ml
+      - SG_00 @WangCai_1
+      - SG_01 @WangCai_1
+      - SG_09 @WangCai_1
+      - US 13｜openit.ml
+      - CN 3｜openit.ml
+      - US 10｜openit.ml
+      - SG_07 @WangCai_1
+      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
+      - github.com/freefq - 美国CloudFlare节点 21
+      - 加拿大 002
+      - US_35
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
