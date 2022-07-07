@@ -5,119 +5,271 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN 11｜openit.ml, server: 36.134.37.211, port: 17032, type: trojan, password: KClwEs06JK8ps3kmf2V5h, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa), server: iepl3.dcnode.me, port: 10043, type: ss, cipher: aes-128-gcm, password: 2daf156a-b9ee-4671-913a-4339ddd39021, udp: true}
-  - {name: CN 22｜openit.ml, server: 36.134.37.211, port: 16002, type: trojan, password: KClwEs06JK8ps3kmf2V5h, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN-🇺🇸US_08, server: 36.139.154.17, port: 45413, type: vmess, uuid: 20f731db-9c56-451f-b926-4e33186dfcbc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 36.139.154.17}, udp: true}
-  - {name: github.com/freefq - 新加坡Digital Ocean数据中心 18, server: trojan2.udpgw.com, port: 443, type: trojan, password: 973ef350-f6a5-11ec-9274-1239d0255272, sni: trojan2.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国惠普公司 24, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: SG_06 @WangCai_1, server: 194.124.35.26, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 香港_0701156, server: 10.vip341.xyz, port: 443, type: vmess, uuid: 2f0415a4-9acd-3435-a780-e447a2ce79fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /ny, ws-headers: {Host: 10.vip341.xyz}, udp: true}
-  - {name: CN_03, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: SG_10 @WangCai_1, server: 194.124.35.26, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 中国(TG频道:@kxswa), server: qdcukr1.vip.www.klrxyru.cn, port: 1551, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: T0dRNE16VTRORE01TXk1M2JuTXVkMmx1Wkc5M2N5NWpiMjA, udp: true}
+  - {name: CN 13｜openit.ml, server: qdcukr1.vip.www.klrxyru.cn, port: 1551, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: 8d83584393.wns.windows.com, udp: true}
+  - {name: 新加坡 005, server: in04.my1188.org, port: 63088, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
+  - {name: 中国(TG频道:@kxswa) 2, server: in02.my1188.org, port: 63087, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
+  - {name: 中国(TG频道:@kxswa) 3, server: shkr2.vip.www.klrxyru.cn, port: 1552, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: OGQ4MzU4NDM5My53bnMud2luZG93cy5jb20, udp: true}
+  - {name: 中国(TG频道:@kxswa) 4, server: bgphk7.vip.www.klrxyru.cn, port: 580, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA, udp: true}
+  - {name: CN 34｜openit.ml, server: bgphk9.vip.www.klrxyru.cn, port: 582, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 26｜openit.ml, server: bgphk8.vip.www.klrxyru.cn, port: 581, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: 中国(TG频道:@kxswa) 5, server: bgphk4.vip.www.klrxyru.cn, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA, udp: true}
+  - {name: CN 22｜openit.ml, server: bgphk6.vip.www.klrxyru.cn, port: 579, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 23｜openit.ml, server: bgphk7.vip.www.klrxyru.cn, port: 580, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 24｜openit.ml, server: bgphka.vip.www.klrxyru.cn, port: 583, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 7｜openit.ml, server: relaysgp2.vip.www.klrxyru.cn, port: 1502, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: 中国(TG频道:@kxswa) 6, server: bgphk9.vip.www.klrxyru.cn, port: 582, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: CN 15｜openit.ml, server: relayus3.vip.www.klrxyru.cn, port: 1403, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 9｜openit.ml, server: relayjp1.vip.www.klrxyru.cn, port: 1451, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 16｜openit.ml, server: relayus4.vip.www.klrxyru.cn, port: 1404, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: 8d83584393.wns.windows.com, udp: true}
+  - {name: 中国(TG频道:@kxswa) 7, server: aiavnd1.vip.www.klrxyru.cn, port: 1611, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: 中国(TG频道:@kxswa) 8, server: relayus4.vip.www.klrxyru.cn, port: 1404, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: OGQ4MzU4NDM5My53bnMud2luZG93cy5jb20, udp: true}
+  - {name: CN 36｜openit.ml, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: 中国(TG频道:@kxswa) 9, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: CN 17｜openit.ml, server: relayus2.vip.www.klrxyru.cn, port: 1402, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: 沪日|西雅图B|X1, server: 52.80.151.97, port: 50032, type: ss, cipher: aes-128-gcm, password: 3a3b0878-2306-4930-9aba-ee411441d9f8, udp: true}
+  - {name: 香港_0706033, server: 47.243.31.8, port: 51657, type: vmess, uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.31.8]}}, udp: true}
+  - {name: 中国(TG频道:@kxswa) 10, server: relayus2.vip.www.klrxyru.cn, port: 1402, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: CN 6｜openit.ml, server: relayjp2.vip.www.klrxyru.cn, port: 1452, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: 中国(TG频道:@kxswa) 11, server: relayus3.vip.www.klrxyru.cn, port: 1403, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: 新加坡(TG频道:@kxswa), server: 626sg05.ok365.cyou, port: 80, type: trojan, password: ef4eb420-0eee-47d5-a202-e87e743a038e, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: CN 25｜openit.ml, server: aiashbr1.www.klrxyru.cn, port: 1631, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 12｜openit.ml, server: shkr2.vip.www.klrxyru.cn, port: 1552, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: 8d83584393.wns.windows.com, udp: true}
+  - {name: CN 31｜openit.ml, server: shuk2.vip.www.klrxyru.cn, port: 1352, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: 中国(TG频道:@kxswa) 12, server: aiabjfr1.www.klrxyru.cn, port: 1461, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: 中国(TG频道:@kxswa) 13, server: shuk2.vip.www.klrxyru.cn, port: 1352, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: CN 20｜openit.ml, server: aiabjfr1.www.klrxyru.cn, port: 1461, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: 中国(TG频道:@kxswa) 14, server: relayjp3.vip.www.klrxyru.cn, port: 1453, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: 中国(TG频道:@kxswa) 15, server: aiashar1.www.klrxyru.cn, port: 1651, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA, udp: true}
+  - {name: 中国(TG频道:@kxswa) 16, server: aiashbr1.www.klrxyru.cn, port: 1631, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: CN 32｜openit.ml, server: aiashar1.www.klrxyru.cn, port: 1651, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: 中国(TG频道:@kxswa) 17, server: bgphk2.vip.www.klrxyru.cn, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: 美国 014, server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: CN 5｜openit.ml, server: relayjp3.vip.www.klrxyru.cn, port: 1453, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
+  - {name: CN 28｜openit.ml, server: bgphk4.vip.www.klrxyru.cn, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
   - {name: 中国_0701208, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
-  - {name: SG 6｜openit.ml, server: awssg1.crunode.top, port: 16600, type: trojan, password: 02789373-e4d4-4b04-b85c-83b17c96225f, sni: awssg1.crunode.top, skip-cert-verify: true, udp: true}
-  - {name: SG_00 @WangCai_1, server: 194.124.35.24, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: SG_01 @WangCai_1, server: 194.124.35.24, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: SG_09 @WangCai_1, server: 194.124.35.24, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US 13｜openit.ml, server: rn.tianxie.jp.eu.org, port: 443, type: trojan, password: c06bb8e0-7989-4885-9560-df320b7ce1d3, sni: rn.tianxie.jp.eu.org, skip-cert-verify: true, udp: true}
-  - {name: CN 3｜openit.ml, server: cu-cs.okvpn.xyz, port: 20000, type: trojan, password: cbc7a068-88d9-4fe9-979c-a5781967fc07, sni: cu-cs.okvpn.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖, server: 5.183.176.96, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 中国(TG频道:@kxswa) 18, server: in01.my1188.org, port: 63028, type: vmess, uuid: 0f01682d-2454-3fd5-beec-53ea4cec7e0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in01.my1188.org}, udp: true}
+  - {name: 中国(TG频道:@kxswa) 19, server: relayjp1.vip.www.klrxyru.cn, port: 1451, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: 中国(TG频道:@kxswa) 20, server: relayjp2.vip.www.klrxyru.cn, port: 1452, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
+  - {name: :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
+  - {name: 美国 025, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
+  - {name: 美国 013, server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: 5.183.176.84, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国(TG频道:@kxswa), server: 625us.ok365.cyou, port: 443, type: trojan, password: ef4eb420-0eee-47d5-a202-e87e743a038e, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 5.183.176.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Pool_🇯🇵JP_433 | 6.47Mb, server: 185.172.113.226, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 5.183.176.92, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Pool_🇯🇵JP_388 |11.44Mb, server: 185.172.113.243, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Pool_🇯🇵JP_421 |18.36Mb, server: 185.172.113.243, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: 5.183.176.96, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Relay_🇺🇸US-🇸🇬SG_42, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: 5.183.176.94, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Pool_🇯🇵JP_442 |19.40Mb, server: 185.172.113.243, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: US 10｜openit.ml, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: SG_07 @WangCai_1, server: 194.124.35.25, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36, server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq - 美国CloudFlare节点 21, server: 172.64.199.253, port: 443, type: vmess, uuid: 2ad6e16f-08e9-482d-ae7a-70d1b2ec7159, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Vmess, ws-headers: {Host: ca.922833.xyz}, udp: true}
-  - {name: 加拿大 002, server: 625us.ok365.cyou, port: 443, type: trojan, password: d6b70aec-bda5-4c5a-b37f-931ce32ded7b, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: US_35, server: 159.223.54.93, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: khiemdz.akamaized.net}, udp: true}
-  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: 159.223.54.93, port: 80, type: vmess, uuid: d97ee737-7bc0-4dca-acf1-85135ed4d97e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.223.54.93}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -136,124 +288,276 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港_0701156
+      - 香港_0706033
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -269,30 +573,68 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN 11｜openit.ml
-      - 美国(TG频道:@kxswa)
+      - 中国(TG频道:@kxswa)
+      - CN 13｜openit.ml
+      - 新加坡 005
+      - 中国(TG频道:@kxswa) 2
+      - 中国(TG频道:@kxswa) 3
+      - 中国(TG频道:@kxswa) 4
+      - CN 34｜openit.ml
+      - CN 26｜openit.ml
+      - 中国(TG频道:@kxswa) 5
       - CN 22｜openit.ml
-      - Relay_🇨🇳CN-🇺🇸US_08
-      - github.com/freefq - 新加坡Digital Ocean数据中心 18
-      - github.com/freefq - 美国惠普公司 24
-      - SG_06 @WangCai_1
-      - 香港_0701156
-      - CN_03
-      - SG_10 @WangCai_1
+      - CN 23｜openit.ml
+      - CN 24｜openit.ml
+      - CN 7｜openit.ml
+      - 中国(TG频道:@kxswa) 6
+      - CN 15｜openit.ml
+      - CN 9｜openit.ml
+      - CN 16｜openit.ml
+      - 中国(TG频道:@kxswa) 7
+      - 中国(TG频道:@kxswa) 8
+      - CN 36｜openit.ml
+      - 中国(TG频道:@kxswa) 9
+      - CN 17｜openit.ml
+      - 沪日|西雅图B|X1
+      - 香港_0706033
+      - 中国(TG频道:@kxswa) 10
+      - CN 6｜openit.ml
+      - 中国(TG频道:@kxswa) 11
+      - 新加坡(TG频道:@kxswa)
+      - CN 25｜openit.ml
+      - CN 12｜openit.ml
+      - CN 31｜openit.ml
+      - 中国(TG频道:@kxswa) 12
+      - 中国(TG频道:@kxswa) 13
+      - CN 20｜openit.ml
+      - 中国(TG频道:@kxswa) 14
+      - 中国(TG频道:@kxswa) 15
+      - 中国(TG频道:@kxswa) 16
+      - CN 32｜openit.ml
+      - 中国(TG频道:@kxswa) 17
+      - 美国 014
+      - CN 5｜openit.ml
+      - CN 28｜openit.ml
       - 中国_0701208
-      - SG 6｜openit.ml
-      - SG_00 @WangCai_1
-      - SG_01 @WangCai_1
-      - SG_09 @WangCai_1
-      - US 13｜openit.ml
-      - CN 3｜openit.ml
+      - _油管：全网最强白嫖
+      - 中国(TG频道:@kxswa) 18
+      - 中国(TG频道:@kxswa) 19
+      - 中国(TG频道:@kxswa) 20
+      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
+      - 美国 025
+      - 美国 013
+      - _油管：全网最强白嫖 2
+      - 美国(TG频道:@kxswa)
+      - _油管：全网最强白嫖 3
+      - Pool_🇯🇵JP_433 | 6.47Mb
+      - _油管：全网最强白嫖 4
+      - Pool_🇯🇵JP_388 |11.44Mb
+      - Pool_🇯🇵JP_421 |18.36Mb
+      - _油管：全网最强白嫖 5
+      - Relay_🇺🇸US-🇸🇬SG_42
+      - _油管：全网最强白嫖 6
+      - Pool_🇯🇵JP_442 |19.40Mb
       - US 10｜openit.ml
-      - SG_07 @WangCai_1
-      - v2rayfree.eu.org - 新加坡DigitalOcean数据中心 36
-      - github.com/freefq - 美国CloudFlare节点 21
-      - 加拿大 002
-      - US_35
-      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10493,5 +10835,4 @@ rules:
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
- - MATCH,🐟 漏网之鱼
-
+ - MATCH,🐟 漏网之鱼  
