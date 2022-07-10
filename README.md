@@ -5,271 +5,263 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 中国(TG频道:@kxswa), server: qdcukr1.vip.www.klrxyru.cn, port: 1551, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: T0dRNE16VTRORE01TXk1M2JuTXVkMmx1Wkc5M2N5NWpiMjA, udp: true}
-  - {name: CN 13｜openit.ml, server: qdcukr1.vip.www.klrxyru.cn, port: 1551, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: 8d83584393.wns.windows.com, udp: true}
-  - {name: 新加坡 005, server: in04.my1188.org, port: 63088, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: tw-load-balancer.myn1des.com}, udp: true}
-  - {name: 中国(TG频道:@kxswa) 2, server: in02.my1188.org, port: 63087, type: vmess, uuid: c33c5af3-a848-3649-a5ec-e1e2a2491f6c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /mugua, ws-headers: {Host: sg-balancer.tencent.best}, udp: true}
-  - {name: 中国(TG频道:@kxswa) 3, server: shkr2.vip.www.klrxyru.cn, port: 1552, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: OGQ4MzU4NDM5My53bnMud2luZG93cy5jb20, udp: true}
-  - {name: 中国(TG频道:@kxswa) 4, server: bgphk7.vip.www.klrxyru.cn, port: 580, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA, udp: true}
-  - {name: CN 34｜openit.ml, server: bgphk9.vip.www.klrxyru.cn, port: 582, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 26｜openit.ml, server: bgphk8.vip.www.klrxyru.cn, port: 581, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 中国(TG频道:@kxswa) 5, server: bgphk4.vip.www.klrxyru.cn, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA, udp: true}
-  - {name: CN 22｜openit.ml, server: bgphk6.vip.www.klrxyru.cn, port: 579, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 23｜openit.ml, server: bgphk7.vip.www.klrxyru.cn, port: 580, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 24｜openit.ml, server: bgphka.vip.www.klrxyru.cn, port: 583, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 7｜openit.ml, server: relaysgp2.vip.www.klrxyru.cn, port: 1502, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 中国(TG频道:@kxswa) 6, server: bgphk9.vip.www.klrxyru.cn, port: 582, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: CN 15｜openit.ml, server: relayus3.vip.www.klrxyru.cn, port: 1403, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 9｜openit.ml, server: relayjp1.vip.www.klrxyru.cn, port: 1451, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 16｜openit.ml, server: relayus4.vip.www.klrxyru.cn, port: 1404, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: 8d83584393.wns.windows.com, udp: true}
-  - {name: 中国(TG频道:@kxswa) 7, server: aiavnd1.vip.www.klrxyru.cn, port: 1611, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: 中国(TG频道:@kxswa) 8, server: relayus4.vip.www.klrxyru.cn, port: 1404, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: OGQ4MzU4NDM5My53bnMud2luZG93cy5jb20, udp: true}
-  - {name: CN 36｜openit.ml, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa) 9, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: CN 17｜openit.ml, server: relayus2.vip.www.klrxyru.cn, port: 1402, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 沪日|西雅图B|X1, server: 52.80.151.97, port: 50032, type: ss, cipher: aes-128-gcm, password: 3a3b0878-2306-4930-9aba-ee411441d9f8, udp: true}
-  - {name: 香港_0706033, server: 47.243.31.8, port: 51657, type: vmess, uuid: f0eb8855-d3a4-4fc4-98b6-711681c756b8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.31.8]}}, udp: true}
-  - {name: 中国(TG频道:@kxswa) 10, server: relayus2.vip.www.klrxyru.cn, port: 1402, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: CN 6｜openit.ml, server: relayjp2.vip.www.klrxyru.cn, port: 1452, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 中国(TG频道:@kxswa) 11, server: relayus3.vip.www.klrxyru.cn, port: 1403, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: 新加坡(TG频道:@kxswa), server: 626sg05.ok365.cyou, port: 80, type: trojan, password: ef4eb420-0eee-47d5-a202-e87e743a038e, sni: 626sg05.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: CN 25｜openit.ml, server: aiashbr1.www.klrxyru.cn, port: 1631, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 12｜openit.ml, server: shkr2.vip.www.klrxyru.cn, port: 1552, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: 8d83584393.wns.windows.com, udp: true}
-  - {name: CN 31｜openit.ml, server: shuk2.vip.www.klrxyru.cn, port: 1352, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 中国(TG频道:@kxswa) 12, server: aiabjfr1.www.klrxyru.cn, port: 1461, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: 中国(TG频道:@kxswa) 13, server: shuk2.vip.www.klrxyru.cn, port: 1352, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: CN 20｜openit.ml, server: aiabjfr1.www.klrxyru.cn, port: 1461, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 中国(TG频道:@kxswa) 14, server: relayjp3.vip.www.klrxyru.cn, port: 1453, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: 中国(TG频道:@kxswa) 15, server: aiashar1.www.klrxyru.cn, port: 1651, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: WWpRelpUTXhNeTUzYm5NdWQybHVaRzkzY3k1amIyMA, udp: true}
-  - {name: 中国(TG频道:@kxswa) 16, server: aiashbr1.www.klrxyru.cn, port: 1631, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: CN 32｜openit.ml, server: aiashar1.www.klrxyru.cn, port: 1651, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 中国(TG频道:@kxswa) 17, server: bgphk2.vip.www.klrxyru.cn, port: 575, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: 美国 014, server: bai-piao-wang-zhe.us.567568.ml, port: 12337, type: trojan, password: df8ebf95-bd60-4f7e-a505-fe8db5ba3342, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: CN 5｜openit.ml, server: relayjp3.vip.www.klrxyru.cn, port: 1453, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: CN 28｜openit.ml, server: bgphk4.vip.www.klrxyru.cn, port: 577, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: b43e313.wns.windows.com, udp: true}
-  - {name: 中国_0701208, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: 117.28.242.156}, udp: true}
-  - {name: _油管：全网最强白嫖, server: 5.183.176.96, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 中国(TG频道:@kxswa) 18, server: in01.my1188.org, port: 63028, type: vmess, uuid: 0f01682d-2454-3fd5-beec-53ea4cec7e0c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: in01.my1188.org}, udp: true}
-  - {name: 中国(TG频道:@kxswa) 19, server: relayjp1.vip.www.klrxyru.cn, port: 1451, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: 中国(TG频道:@kxswa) 20, server: relayjp2.vip.www.klrxyru.cn, port: 1452, type: ssr, cipher: chacha20-ietf, password: mtbv8n, protocol: auth_aes128_md5, obfs: plain, protocol-param: 84393:25lGIs, obfs-param: YjQzZTMxMy53bnMud2luZG93cy5jb20, udp: true}
-  - {name: :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF, server: 51.195.136.209, port: 50004, type: ss, cipher: aes-256-cfb, password: !<str> 4415934295, udp: true}
-  - {name: 美国 025, server: 152.69.206.209, port: 1212, type: vmess, uuid: fb908160-9697-4bfd-f5b7-f1fbc53e60fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: YouTube-aweikeji}, udp: true}
-  - {name: 美国 013, server: bai-piao-wang-zhe.us.567568.ml, port: 19568, type: trojan, password: AglrNchEnS, sni: bai-piao-wang-zhe.us.567568.ml, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: 5.183.176.84, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 美国(TG频道:@kxswa), server: 625us.ok365.cyou, port: 443, type: trojan, password: ef4eb420-0eee-47d5-a202-e87e743a038e, sni: 625us.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: 5.183.176.92, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Pool_🇯🇵JP_433 | 6.47Mb, server: 185.172.113.226, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: 5.183.176.92, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Pool_🇯🇵JP_388 |11.44Mb, server: 185.172.113.243, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Pool_🇯🇵JP_421 |18.36Mb, server: 185.172.113.243, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: 5.183.176.96, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: Free Proxy (F), server: 3.34.255.166, port: 443, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Free Proxy (F) 2, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 7016e349-afae-4ece-a3bb-f02e113d8c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Free Proxy (F) 3, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Free Proxy (F) 4, server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Free Proxy (F) 5, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Free Proxy (F) 6, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Free Proxy (F) 7, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Free Proxy (F) 8, server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Free Proxy (F) 9, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Free Proxy (F) 10, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Free Proxy (F) 11, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 7016e349-afae-4ece-a3bb-f02e113d8c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: a.189.cn}, udp: true}
+  - {name: Free Proxy (F) 12, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Free Proxy (F) 13, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Free Proxy (F) 14, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Relay_🇺🇸US-🇸🇬SG_42, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: 5.183.176.94, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: Pool_🇯🇵JP_442 |19.40Mb, server: 185.172.113.243, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US 10｜openit.ml, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: FR_408+|nodefree.org免费节点日更, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1262+|nodefree.org免费节点日更, server: 38.114.114.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_1378+|nodefree.org免费节点日更, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CN 36｜openit.ml, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: US_1419+|nodefree.org免费节点日更, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1381+|nodefree.org免费节点日更, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1079+|nodefree.org免费节点日更, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1050+|nodefree.org免费节点日更, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: US_1398+|nodefree.org免费节点日更, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: US_1388+|nodefree.org免费节点日更, server: 38.68.134.85, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_948+|nodefree.org免费节点日更, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_980+|+nodefree.org免费节点日更, server: 38.68.134.85, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_998+|nodefree.org免费节点日更, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: NL_666+|nodefree.org免费节点日更, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: US_932+|nodefree.org免费节点日更, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1173+|nodefree.org免费节点日更, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1415+|+nodefree.org免费节点日更, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: AU_104 | nodefree.org免费节点日更, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
+  - {name: US_1430+|nodefree.org免费节点日更, server: 38.68.134.85, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1161+|+nodefree.org免费节点日更, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1105+|nodefree.org免费节点日更, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1072+|nodefree.org免费节点日更, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1293+|nodefree.org免费节点日更, server: 167.88.61.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_960+|nodefree.org免费节点日更, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: US_1061+|+nodefree.org免费节点日更, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: US_990+|nodefree.org免费节点日更, server: 38.68.134.85, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1412+|nodefree.org免费节点日更, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1023+|nodefree.org免费节点日更, server: 38.114.114.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_1349+|nodefree.org免费节点日更, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: US_1314+|nodefree.org免费节点日更, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_991+|+nodefree.org免费节点日更, server: 38.75.136.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: US_979+|nodefree.org免费节点日更, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_1081+|nodefree.org免费节点日更, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1077+|+nodefree.org免费节点日更, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: US_1317+|nodefree.org免费节点日更, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1313+|+nodefree.org免费节点日更, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1318+|+nodefree.org免费节点日更, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US_1439+|nodefree.org免费节点日更, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: FR_373+|nodefree.org免费节点日更, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: US_1269+|+nodefree.org免费节点日更, server: 38.114.114.19, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1292+|+nodefree.org免费节点日更, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: US_1009+|+nodefree.org免费节点日更, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: US_1400+|nodefree.org免费节点日更, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US_1309+|nodefree.org免费节点日更, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _油管：全网最强白嫖, server: 5.183.176.96, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -288,276 +280,267 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港_0706033
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -573,68 +556,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 中国(TG频道:@kxswa)
-      - CN 13｜openit.ml
-      - 新加坡 005
-      - 中国(TG频道:@kxswa) 2
-      - 中国(TG频道:@kxswa) 3
-      - 中国(TG频道:@kxswa) 4
-      - CN 34｜openit.ml
-      - CN 26｜openit.ml
-      - 中国(TG频道:@kxswa) 5
-      - CN 22｜openit.ml
-      - CN 23｜openit.ml
-      - CN 24｜openit.ml
-      - CN 7｜openit.ml
-      - 中国(TG频道:@kxswa) 6
-      - CN 15｜openit.ml
-      - CN 9｜openit.ml
-      - CN 16｜openit.ml
-      - 中国(TG频道:@kxswa) 7
-      - 中国(TG频道:@kxswa) 8
-      - CN 36｜openit.ml
-      - 中国(TG频道:@kxswa) 9
-      - CN 17｜openit.ml
-      - 沪日|西雅图B|X1
-      - 香港_0706033
-      - 中国(TG频道:@kxswa) 10
-      - CN 6｜openit.ml
-      - 中国(TG频道:@kxswa) 11
-      - 新加坡(TG频道:@kxswa)
-      - CN 25｜openit.ml
-      - CN 12｜openit.ml
-      - CN 31｜openit.ml
-      - 中国(TG频道:@kxswa) 12
-      - 中国(TG频道:@kxswa) 13
-      - CN 20｜openit.ml
-      - 中国(TG频道:@kxswa) 14
-      - 中国(TG频道:@kxswa) 15
-      - 中国(TG频道:@kxswa) 16
-      - CN 32｜openit.ml
-      - 中国(TG频道:@kxswa) 17
-      - 美国 014
-      - CN 5｜openit.ml
-      - CN 28｜openit.ml
-      - 中国_0701208
-      - _油管：全网最强白嫖
-      - 中国(TG频道:@kxswa) 18
-      - 中国(TG频道:@kxswa) 19
-      - 中国(TG频道:@kxswa) 20
-      - :美国-ss-51.195.136.209:50004-可用-直连-完全不支持NF
-      - 美国 025
-      - 美国 013
-      - _油管：全网最强白嫖 2
-      - 美国(TG频道:@kxswa)
-      - _油管：全网最强白嫖 3
-      - Pool_🇯🇵JP_433 | 6.47Mb
-      - _油管：全网最强白嫖 4
-      - Pool_🇯🇵JP_388 |11.44Mb
-      - Pool_🇯🇵JP_421 |18.36Mb
-      - _油管：全网最强白嫖 5
+      - Free Proxy (F)
+      - Free Proxy (F) 2
+      - Free Proxy (F) 3
+      - Free Proxy (F) 4
+      - Free Proxy (F) 5
+      - Free Proxy (F) 6
+      - Free Proxy (F) 7
+      - Free Proxy (F) 8
+      - Free Proxy (F) 9
+      - Free Proxy (F) 10
+      - Free Proxy (F) 11
+      - Free Proxy (F) 12
+      - Free Proxy (F) 13
+      - Free Proxy (F) 14
       - Relay_🇺🇸US-🇸🇬SG_42
-      - _油管：全网最强白嫖 6
-      - Pool_🇯🇵JP_442 |19.40Mb
-      - US 10｜openit.ml
+      - FR_408+|nodefree.org免费节点日更
+      - US_1262+|nodefree.org免费节点日更
+      - US_1378+|nodefree.org免费节点日更
+      - CN 36｜openit.ml
+      - US_1419+|nodefree.org免费节点日更
+      - US_1381+|nodefree.org免费节点日更
+      - US_1079+|nodefree.org免费节点日更
+      - US_1050+|nodefree.org免费节点日更
+      - US_1398+|nodefree.org免费节点日更
+      - US_1388+|nodefree.org免费节点日更
+      - US_948+|nodefree.org免费节点日更
+      - US_980+|+nodefree.org免费节点日更
+      - US_998+|nodefree.org免费节点日更
+      - NL_666+|nodefree.org免费节点日更
+      - US_932+|nodefree.org免费节点日更
+      - US_1173+|nodefree.org免费节点日更
+      - US_1415+|+nodefree.org免费节点日更
+      - AU_104 | nodefree.org免费节点日更
+      - US_1430+|nodefree.org免费节点日更
+      - US_1161+|+nodefree.org免费节点日更
+      - US_1105+|nodefree.org免费节点日更
+      - US_1072+|nodefree.org免费节点日更
+      - US_1293+|nodefree.org免费节点日更
+      - US_960+|nodefree.org免费节点日更
+      - US_1061+|+nodefree.org免费节点日更
+      - US_990+|nodefree.org免费节点日更
+      - US_1412+|nodefree.org免费节点日更
+      - US_1023+|nodefree.org免费节点日更
+      - US_1349+|nodefree.org免费节点日更
+      - US_1314+|nodefree.org免费节点日更
+      - US_991+|+nodefree.org免费节点日更
+      - US_979+|nodefree.org免费节点日更
+      - US_1081+|nodefree.org免费节点日更
+      - US_1077+|+nodefree.org免费节点日更
+      - US_1317+|nodefree.org免费节点日更
+      - US_1313+|+nodefree.org免费节点日更
+      - US_1318+|+nodefree.org免费节点日更
+      - US_1439+|nodefree.org免费节点日更
+      - FR_373+|nodefree.org免费节点日更
+      - US_1269+|+nodefree.org免费节点日更
+      - US_1292+|+nodefree.org免费节点日更
+      - US_1009+|+nodefree.org免费节点日更
+      - US_1400+|nodefree.org免费节点日更
+      - US_1309+|nodefree.org免费节点日更
+      - _油管：全网最强白嫖
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10835,4 +10816,5 @@ rules:
  - DOMAIN-KEYWORD,Thunder,🎯 全球直连
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
- - MATCH,🐟 漏网之鱼  
+ - MATCH,🐟 漏网之鱼
+
