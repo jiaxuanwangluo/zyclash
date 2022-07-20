@@ -5,263 +5,287 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Free Proxy (F), server: 3.34.255.166, port: 443, type: vmess, uuid: 391d08b3-b9d6-44b2-8f51-03dff2c761fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Free Proxy (F) 2, server: tw01.henet.cyou, port: 20000, type: vmess, uuid: 7016e349-afae-4ece-a3bb-f02e113d8c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Free Proxy (F) 3, server: vjp3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Free Proxy (F) 4, server: 51.81.223.18, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy (F) 5, server: 51.81.223.31, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy (F) 6, server: 51.81.223.12, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy (F) 7, server: 51.81.223.29, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy (F) 8, server: 51.81.223.4, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy (F) 9, server: vus3.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Free Proxy (F) 10, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Free Proxy (F) 11, server: tw02.henet.cyou, port: 20000, type: vmess, uuid: 7016e349-afae-4ece-a3bb-f02e113d8c8a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /live, ws-headers: {Host: a.189.cn}, udp: true}
-  - {name: Free Proxy (F) 12, server: 51.81.223.6, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy (F) 13, server: 51.81.223.17, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Free Proxy (F) 14, server: 51.81.223.19, port: 443, type: vmess, uuid: c0156451-4efb-45e2-84fc-8d315c4650db, alterId: 32, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇺🇸US-🇸🇬SG_42, server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: FR_408+|nodefree.org免费节点日更, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1262+|nodefree.org免费节点日更, server: 38.114.114.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_1378+|nodefree.org免费节点日更, server: 38.114.114.19, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: CN 36｜openit.ml, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: US_1419+|nodefree.org免费节点日更, server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1381+|nodefree.org免费节点日更, server: 38.114.114.19, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1079+|nodefree.org免费节点日更, server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1050+|nodefree.org免费节点日更, server: 38.68.135.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: US_1398+|nodefree.org免费节点日更, server: 38.68.135.18, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_1388+|nodefree.org免费节点日更, server: 38.68.134.85, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_948+|nodefree.org免费节点日更, server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_980+|+nodefree.org免费节点日更, server: 38.68.134.85, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_998+|nodefree.org免费节点日更, server: 38.114.114.19, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: NL_666+|nodefree.org免费节点日更, server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: US_932+|nodefree.org免费节点日更, server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1173+|nodefree.org免费节点日更, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1415+|+nodefree.org免费节点日更, server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: AU_104 | nodefree.org免费节点日更, server: vau1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vau1.0bad.com}, udp: true}
-  - {name: US_1430+|nodefree.org免费节点日更, server: 38.68.134.85, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_1161+|+nodefree.org免费节点日更, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1105+|nodefree.org免费节点日更, server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1072+|nodefree.org免费节点日更, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1293+|nodefree.org免费节点日更, server: 167.88.61.50, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_960+|nodefree.org免费节点日更, server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: US_1061+|+nodefree.org免费节点日更, server: 38.75.136.102, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: US_990+|nodefree.org免费节点日更, server: 38.68.134.85, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1412+|nodefree.org免费节点日更, server: 38.75.136.102, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1023+|nodefree.org免费节点日更, server: 38.114.114.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_1349+|nodefree.org免费节点日更, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: US_1314+|nodefree.org免费节点日更, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_991+|+nodefree.org免费节点日更, server: 38.75.136.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: US_979+|nodefree.org免费节点日更, server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: US_1081+|nodefree.org免费节点日更, server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1077+|+nodefree.org免费节点日更, server: 38.75.136.102, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: US_1317+|nodefree.org免费节点日更, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1313+|+nodefree.org免费节点日更, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 美国 015, server: node.sin.entrance.cyou, port: 28000, type: trojan, password: 7da84a56-a1e2-48f3-a690-374a3973d7e8, sni: node.sin.entrance.cyou, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇭🇰HK_87, server: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, port: 443, type: trojan, password: trojan-daozhu-uallen-qbit-azure-hk, sni: trojan-daozhu-uallen-qbit-azure-hk.kinhproxy.com, skip-cert-verify: true, udp: true}
+  - {name: "香港✈️中转 [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 45379, type: trojan, password: 82a235da-41e1-4ee4-811a-f72859be81a1, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: "台湾✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 31097, type: trojan, password: 82a235da-41e1-4ee4-811a-f72859be81a1, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_27, server: 167.88.61.213, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _US_美国_5, server: 167.88.61.213, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_18, server: 167.88.61.213, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国_34, server: 167.88.61.213, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: _US_美国_23, server: 167.88.61.213, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:), server: us-05.licom.ml, port: 12501, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: us-05.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: JP 973 TJN, server: jgwdj4.gaox.ml, port: 443, type: trojan, password: c09eb137-bf68-4658-84e0-102d94b74168, sni: jgwdj4.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_35, server: 167.88.61.213, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12, server: 52.58.249.78, port: 57824, type: ss, cipher: chacha20-ietf-poly1305, password: pryhyxya, udp: true}
+  - {name: _US_美国_24, server: 167.88.61.213, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "俄罗斯✈️中转  [湘沪BGP]", server: hlu.bgp2.liuliangzhuanfa.xyz, port: 42167, type: trojan, password: 82a235da-41e1-4ee4-811a-f72859be81a1, sni: hlu.bgp2.liuliangzhuanfa.xyz, skip-cert-verify: true, udp: true}
+  - {name: HK 50, server: 103.253.43.228, port: 443, type: trojan, password: 48a55ebb-54f2-4757-8899-047933695eb2, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_25, server: 167.88.63.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国_15, server: 167.88.61.213, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: _US_美国, server: 167.88.63.79, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2, server: 195.154.200.150, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: SG 26 TJN, server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_33, server: 167.88.61.175, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: _US_美国_9, server: 167.88.61.175, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_11, server: 167.88.61.175, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: _US_美国 2, server: 167.88.63.79, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
   - {name: US_1318+|+nodefree.org免费节点日更, server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: US_1439+|nodefree.org免费节点日更, server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: FR_373+|nodefree.org免费节点日更, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_1269+|+nodefree.org免费节点日更, server: 38.114.114.19, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1292+|+nodefree.org免费节点日更, server: 38.114.114.19, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_1009+|+nodefree.org免费节点日更, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: US_1400+|nodefree.org免费节点日更, server: 38.68.135.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: US_1309+|nodefree.org免费节点日更, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: _油管：全网最强白嫖, server: 5.183.176.96, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _US_美国 3, server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: github.com/freefq - 瑞典  28, server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: 1, server: jgwxn3.gaox.ml, port: 443, type: trojan, password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf, sni: jgwxn3.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国 4, server: 167.88.63.79, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: _US_美国_31, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: github.com/freefq - 瑞典  8, server: 167.88.61.175, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix, server: 167.88.63.79, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix, server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix, server: 167.88.61.175, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: US_1317+|nodefree.org免费节点日更, server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: US 48 TJN, server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3, server: youtube.bai-piao-wang-zhe.567568.ml, port: 443, type: trojan, password: e88cb308-73f7-4302-89bf-b65c7386b117, sni: youtube.bai-piao-wang-zhe.567568.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_3, server: 167.88.61.175, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32002, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix, server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: _US_美国_14, server: 167.88.61.175, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _US_美国_16, server: 167.88.61.175, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34003, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_1256, server: 167.88.61.175, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34002, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_21, server: 167.88.61.175, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb, server: pp1.zhengzhongfeizhu.xyz, port: 33002, type: trojan, password: eb2f8154-ff58-3b99-b393-28c8eecdbe64, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_20, server: 167.88.61.175, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: _US_美国_6, server: 167.88.61.175, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb, server: pp1.zhengzhongfeizhu.xyz, port: 32001, type: trojan, password: 7688df6f-bf65-3368-b55e-d78efea6a582, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix, server: 167.88.61.2, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix, server: 167.88.61.175, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34004, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖, server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
+  - {name: :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix, server: 167.88.61.175, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Relay_🇸🇬SG-🇸🇬SG_54, server: sg-03.licom.ml, port: 8443, type: trojan, password: ce433528-39fa-4711-bc0d-25a5b1579574, sni: sg-03.licom.ml, skip-cert-verify: true, udp: true}
+  - {name: _US_美国_7, server: 167.88.61.175, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 2f606ee8-3cfa-30b2-a191-f88efe912f5c, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb, server: pp1.zhengzhongfeizhu.xyz, port: 34000, type: trojan, password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f, sni: pp1.zhengzhongfeizhu.xyz, skip-cert-verify: true, udp: true}
+  - {name: NL 20 TJN, server: youtube-bai-piao-wang-zhe.nl.884899.cf, port: 41196, type: trojan, password: 94afcc56-cc1c-4cd4-8c82-1215cd052795, sni: youtube-bai-piao-wang-zhe.nl.884899.cf, skip-cert-verify: true, udp: true}
+  - {name: CN 36｜openit.ml, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -280,267 +304,293 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -556,66 +606,72 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Free Proxy (F)
-      - Free Proxy (F) 2
-      - Free Proxy (F) 3
-      - Free Proxy (F) 4
-      - Free Proxy (F) 5
-      - Free Proxy (F) 6
-      - Free Proxy (F) 7
-      - Free Proxy (F) 8
-      - Free Proxy (F) 9
-      - Free Proxy (F) 10
-      - Free Proxy (F) 11
-      - Free Proxy (F) 12
-      - Free Proxy (F) 13
-      - Free Proxy (F) 14
-      - Relay_🇺🇸US-🇸🇬SG_42
-      - FR_408+|nodefree.org免费节点日更
-      - US_1262+|nodefree.org免费节点日更
-      - US_1378+|nodefree.org免费节点日更
-      - CN 36｜openit.ml
-      - US_1419+|nodefree.org免费节点日更
-      - US_1381+|nodefree.org免费节点日更
-      - US_1079+|nodefree.org免费节点日更
-      - US_1050+|nodefree.org免费节点日更
-      - US_1398+|nodefree.org免费节点日更
-      - US_1388+|nodefree.org免费节点日更
-      - US_948+|nodefree.org免费节点日更
-      - US_980+|+nodefree.org免费节点日更
-      - US_998+|nodefree.org免费节点日更
-      - NL_666+|nodefree.org免费节点日更
-      - US_932+|nodefree.org免费节点日更
-      - US_1173+|nodefree.org免费节点日更
-      - US_1415+|+nodefree.org免费节点日更
-      - AU_104 | nodefree.org免费节点日更
-      - US_1430+|nodefree.org免费节点日更
-      - US_1161+|+nodefree.org免费节点日更
-      - US_1105+|nodefree.org免费节点日更
-      - US_1072+|nodefree.org免费节点日更
-      - US_1293+|nodefree.org免费节点日更
-      - US_960+|nodefree.org免费节点日更
-      - US_1061+|+nodefree.org免费节点日更
-      - US_990+|nodefree.org免费节点日更
-      - US_1412+|nodefree.org免费节点日更
-      - US_1023+|nodefree.org免费节点日更
-      - US_1349+|nodefree.org免费节点日更
-      - US_1314+|nodefree.org免费节点日更
-      - US_991+|+nodefree.org免费节点日更
-      - US_979+|nodefree.org免费节点日更
-      - US_1081+|nodefree.org免费节点日更
-      - US_1077+|+nodefree.org免费节点日更
-      - US_1317+|nodefree.org免费节点日更
-      - US_1313+|+nodefree.org免费节点日更
+      - 美国 015
+      - Relay_🇺🇸US-🇭🇰HK_87
+      - 香港✈️中转 [湘沪BGP]
+      - 台湾✈️中转  [湘沪BGP]
+      - _US_美国_27
+      - _US_美国_5
+      - _US_美国_18
+      - _US_美国_34
+      - _US_美国_23
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:)
+      - JP 973 TJN
+      - _US_美国_35
+      - github.com/freefq - 德国黑森州法兰克福Amazon数据中心 12
+      - _US_美国_24
+      - 俄罗斯✈️中转  [湘沪BGP]
+      - HK 50
+      - _US_美国_25
+      - _US_美国_15
+      - _US_美国
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 2
+      - SG 26 TJN
+      - _US_美国_33
+      - _US_美国_9
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_350 |12.84Mb
+      - _US_美国_11
+      - _US_美国 2
       - US_1318+|+nodefree.org免费节点日更
-      - US_1439+|nodefree.org免费节点日更
-      - FR_373+|nodefree.org免费节点日更
-      - US_1269+|+nodefree.org免费节点日更
-      - US_1292+|+nodefree.org免费节点日更
-      - US_1009+|+nodefree.org免费节点日更
-      - US_1400+|nodefree.org免费节点日更
-      - US_1309+|nodefree.org免费节点日更
+      - _US_美国 3
+      - github.com/freefq - 瑞典  28
+      - 1
+      - _US_美国 4
+      - _US_美国_31
+      - github.com/freefq - 瑞典  8
+      - :美国-ss-167.88.63.79:3389-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_321 |15.60Mb
+      - :美国-ss-167.88.61.2:812-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:6379-可用-直连-不支持Netflix
+      - US_1317+|nodefree.org免费节点日更
+      - US 48 TJN
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_318 |14.86Mb
+      - 这些节点只能备用或者防止失联，虽然质量并不是很好，也请低调使用:) 3
+      - _US_美国_3
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_349 |17.76Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_344 |20.48Mb
+      - :美国-ss-167.88.61.2:807-可用-直连-不支持Netflix
+      - _US_美国_14
+      - _US_美国_16
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_313 |16.79Mb
+      - US_1256
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_333 |20.72Mb
+      - _US_美国_21
+      - TG@moneyflychat  中转节点🇨🇳CN-🇺🇸US_378 |13.10Mb
+      - _US_美国_20
+      - _US_美国_6
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_341 |19.45Mb
+      - :美国-ss-167.88.61.2:802-可用-直连-不支持Netflix
+      - :美国-ss-167.88.61.175:7306-可用-直连-不支持Netflix
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_314 |19.39Mb
       - _油管：全网最强白嫖
+      - :美国-ss-167.88.61.175:6679-可用-直连-不支持Netflix
+      - Relay_🇸🇬SG-🇸🇬SG_54
+      - _US_美国_7
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_380 |17.88Mb
+      - TG@moneyflychat  中转节点🇨🇳CN-🇭🇰HK_315 |19.17Mb
+      - NL 20 TJN
+      - CN 36｜openit.ml
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
