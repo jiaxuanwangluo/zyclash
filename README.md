@@ -5,303 +5,219 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 新加坡-tg频道:@bpjzx2-5, server: 953e517.gc.gladns.com, port: 3385, type: trojan, password: d02058f4f819dced, sni: 953e517.gc.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 日本-tg频道:@bpjzx2-11, server: 13.124.29.75, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 台湾-tg频道:@bpjzx2-7, server: 953e517.gb.gladns.com, port: 3383, type: trojan, password: d02058f4f819dced, sni: 953e517.gb.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 美国-tg频道:@bpjzx2-19, server: 144.168.60.70, port: 252, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: 台湾-tg频道:@bpjzx2-16, server: tw-tpe-h-tr.cdn.savoy.click, port: 10089, type: trojan, password: uDTmEAGwuCUZXZvwhWJk, sni: tw-tpe-h-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 日本-tg频道:@bpjzx2-26, server: aaa-666.txwd.xyz, port: 30004, type: ss, cipher: aes-128-gcm, password: wP8GV9hAYErLAF9Y, udp: true}
-  - {name: 美国-tg频道:@bpjzx2-18, server: 199.115.228.30, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr05, udp: true}
-  - {name: 日本-tg频道:@bpjzx2-10, server: jp-tyo-04-tr.cdn.savoy.click, port: 889, type: trojan, password: uDTmEAGwuCUZXZvwhWJk, sni: jp-tyo-04-tr.cdn.savoy.click, skip-cert-verify: true, udp: true}
-  - {name: 213.183.59.206:9060, server: 213.183.59.206, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 213.183.59.190:9024, server: 213.183.59.190, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: 台湾-tg频道:@bpjzx2-6, server: 953e517.ga.gladns.com, port: 3383, type: trojan, password: d02058f4f819dced, sni: 953e517.ga.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: github.com/freefq+-+匈牙利++24, server: 194.71.130.194, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
-  - {name: 213.183.59.211:9060, server: 213.183.59.211, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 213.183.59.211:9032, server: 213.183.59.211, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: 213.183.59.211:9019, server: 213.183.59.211, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: _NL_荷兰, server: 213.183.59.211, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: 213.183.59.190:9019, server: 213.183.59.190, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: _NL_荷兰 2, server: 213.183.59.211, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: 213.183.59.190:9003, server: 213.183.59.190, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 213.183.59.190:9038, server: 213.183.59.190, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: 213.183.59.190:9005, server: 213.183.59.190, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: 213.183.59.211:9026, server: 213.183.59.211, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: _NL_荷兰 3, server: 213.183.59.211, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: 213.183.59.206:9057, server: 213.183.59.206, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: _NL_荷兰 4, server: 213.183.59.190, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: 213.183.59.211:9014, server: 213.183.59.211, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: 213.183.59.211:9030, server: 213.183.59.211, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
-  - {name: 213.183.59.206:9006, server: 213.183.59.206, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: 213.183.59.211:9006, server: 213.183.59.211, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: _NL_荷兰 5, server: 213.183.59.206, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: US_123+|+2.02Mb, server: 38.75.136.102, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 213.183.59.206:9097, server: 213.183.59.206, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: US_112+|+1.91Mb, server: 38.75.136.102, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 213.183.59.211:9059, server: 213.183.59.211, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 213.183.59.214:9060, server: 213.183.59.214, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: 213.183.59.206:9043, server: 213.183.59.206, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58, server: 62.210.113.98, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 213.183.59.206:9037, server: 213.183.59.206, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: _NL_荷兰 6, server: 213.183.59.214, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+40, server: 38.75.136.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: US_152+|+1.92Mb, server: 38.114.114.67, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: 213.183.59.206:9084, server: 213.183.59.206, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: US_144+|+1.91Mb, server: 38.114.114.67, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 213.183.59.214:9031, server: 213.183.59.214, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: 213.183.59.214:9064, server: 213.183.59.214, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: 213.183.53.177:9094, server: 213.183.53.177, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: 213.183.53.177:9041, server: 213.183.53.177, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: 213.183.53.177:9059, server: 213.183.53.177, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: 213.183.53.177:9000, server: 213.183.53.177, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: 213.183.53.177:9033, server: 213.183.53.177, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: 213.183.53.177:9003, server: 213.183.53.177, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: 213.183.53.177:9060, server: 213.183.53.177, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: US_147+|+1.92Mb, server: 38.114.114.19, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _RU_wmt(7.29a)_52, server: 213.183.53.177, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+3, server: 38.68.134.85, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: US_142+|+1.94Mb, server: 38.68.134.85, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41, server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: github.com/freefq+-+加拿大++42, server: 38.64.138.145, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: 213.183.59.214:9098, server: 213.183.59.214, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+15, server: 38.86.135.27, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+6, server: 38.114.114.69, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: 213.183.53.177:9008, server: 213.183.53.177, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: 新加坡-tg频道:@bpjzx2-4, server: 953e517.ga.gladns.com, port: 3385, type: trojan, password: d02058f4f819dced, sni: 953e517.ga.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 日本-tg频道:@bpjzx2-13, server: 85.208.108.58, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+44, server: 38.68.135.19, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US_185+|+1.91Mb, server: 38.75.136.102, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: github.com/freefq+-+法国格拉沃利讷OVH数据中心+30, server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: US_174+|+1.92Mb, server: 38.114.114.19, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+1, server: 38.114.114.19, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: github.com/freefq+-+美国华盛顿Cogent通信公司+23, server: 38.143.66.99, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 嘉轩网络_1, server: aws.raytrack.cloud, port: 20030, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_2, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_3, server: aws.raytrack.cloud, port: 20028, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_4, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
+  - {name: 嘉轩网络_5, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
+  - {name: 嘉轩网络_6, server: aws.raytrack.cloud, port: 20038, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_7, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
+  - {name: 嘉轩网络_8, server: p-c08.nnf613.xyz, port: 22016, type: ssr, cipher: chacha20-ietf, password: x52s9bPIblI, protocol: auth_aes128_md5, obfs: plain, protocol-param: 7941:loDnQkobC5Z, obfs-param: c3VwcG9ydC5hcHBsZS5jb20, udp: true}
+  - {name: 嘉轩网络_9, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
+  - {name: 嘉轩网络_10, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
+  - {name: 嘉轩网络_11, server: 0c7f5f2.ph.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.ph.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_12, server: gyjp1.333003.xyz, port: 19324, type: trojan, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, sni: gyjp1.333003.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_13, server: gyjp2.333003.xyz, port: 19780, type: trojan, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, sni: gyjp2.333003.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_14, server: 43.229.153.148, port: 50418, type: trojan, password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_15, server: fn600mlines008re.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cc05a17e6195, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008re.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_16, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_17, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_18, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_19, server: gyjp3.333003.xyz, port: 16914, type: ss, cipher: chacha20-ietf-poly1305, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, udp: true}
+  - {name: 嘉轩网络_20, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_21, server: fn600mlines008re.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cc05a17e6195, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008re.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_22, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: 594f3c57-d2aa-43a8-98c0-73e672a52b8a, sni: 730tw01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_23, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_24, server: dt.755657.xyz, port: 443, type: trojan, password: ea635091-5d17-42b9-ad81-d26572a9eea8, sni: dt.755657.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_25, server: fndxshk1000mline006.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: db83a372671f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline006.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_26, server: fnhk1gline002.fnline.me, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 957abf07c5a6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline002.fnline.me, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_27, server: fndxshk1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 50db7fd78cdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline001.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_28, server: fnhk1gline002.fnline.me, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 957abf07c5a6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline002.fnline.me, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_29, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline007.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_30, server: fndxshk1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 50db7fd78cdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline001.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_31, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_32, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline007.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_33, server: 823tw.tfzhc.top, port: 443, type: trojan, password: 594f3c57-d2aa-43a8-98c0-73e672a52b8a, sni: 823tw.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_34, server: 0c7f5f2.pc.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.pc.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_35, server: 147.139.65.214, port: 8888, type: ssr, cipher: aes-256-cfb, password: GFHhujkjkY, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 嘉轩网络_36, server: 0c7f5f2.pe.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.pe.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_37, server: 0c7f5f2.pi.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.pi.gladns.com, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_38, server: fnbg1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 6fce24dde8c5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline001.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_39, server: fnbg1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 6fce24dde8c5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline001.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_40, server: 173.82.248.109, port: 11687, type: trojan, password: gkjpxNwC7x, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_41, server: fnbg1gline002.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 33d0b611860f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline002.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_42, server: 64.27.30.211, port: 14815, type: trojan, password: JDpCGXNLHq, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_43, server: api.tcpbbr.net, port: 18443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_44, server: cc.755657.xyz, port: 443, type: trojan, password: ea635091-5d17-42b9-ad81-d26572a9eea8, sni: cc.755657.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_45, server: 155.94.239.243, port: 20001, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b, udp: true}
+  - {name: 嘉轩网络_46, server: 144.168.61.107, port: 4441, type: trojan, password: !<str> 1122, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_47, server: fnbg1gline003.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: cf533d2acaa3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_48, server: fnbg1gline003.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: cf533d2acaa3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_49, server: fnbg1gline002.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 33d0b611860f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline002.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -320,310 +236,223 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 台湾-tg频道:@bpjzx2-7
-      - 台湾-tg频道:@bpjzx2-16
-      - 台湾-tg频道:@bpjzx2-6
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -639,76 +468,55 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 新加坡-tg频道:@bpjzx2-5
-      - 日本-tg频道:@bpjzx2-11
-      - 台湾-tg频道:@bpjzx2-7
-      - 美国-tg频道:@bpjzx2-19
-      - 台湾-tg频道:@bpjzx2-16
-      - 日本-tg频道:@bpjzx2-26
-      - 美国-tg频道:@bpjzx2-18
-      - 日本-tg频道:@bpjzx2-10
-      - 213.183.59.206:9060
-      - 213.183.59.190:9024
-      - 台湾-tg频道:@bpjzx2-6
-      - github.com/freefq+-+匈牙利++24
-      - 213.183.59.211:9060
-      - 213.183.59.211:9032
-      - 213.183.59.211:9019
-      - _NL_荷兰
-      - 213.183.59.190:9019
-      - _NL_荷兰 2
-      - 213.183.59.190:9003
-      - 213.183.59.190:9038
-      - 213.183.59.190:9005
-      - 213.183.59.211:9026
-      - _NL_荷兰 3
-      - 213.183.59.206:9057
-      - _NL_荷兰 4
-      - 213.183.59.211:9014
-      - 213.183.59.211:9030
-      - 213.183.59.206:9006
-      - 213.183.59.211:9006
-      - _NL_荷兰 5
-      - US_123+|+2.02Mb
-      - 213.183.59.206:9097
-      - US_112+|+1.91Mb
-      - 213.183.59.211:9059
-      - 213.183.59.214:9060
-      - 213.183.59.206:9043
-      - github.com/freefq+-+法国ONLINE+S.A.S.数据中心+58
-      - 213.183.59.206:9037
-      - _NL_荷兰 6
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+40
-      - US_152+|+1.92Mb
-      - 213.183.59.206:9084
-      - US_144+|+1.91Mb
-      - 213.183.59.214:9031
-      - 213.183.59.214:9064
-      - 213.183.53.177:9094
-      - 213.183.53.177:9041
-      - 213.183.53.177:9059
-      - 213.183.53.177:9000
-      - 213.183.53.177:9033
-      - 213.183.53.177:9003
-      - 213.183.53.177:9060
-      - US_147+|+1.92Mb
-      - _RU_wmt(7.29a)_52
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+3
-      - US_142+|+1.94Mb
-      - github.com/freefq+-+沙特阿拉伯Arabic+Computer+System+Co.+41
-      - github.com/freefq+-+加拿大++42
-      - 213.183.59.214:9098
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+15
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+6
-      - 213.183.53.177:9008
-      - 新加坡-tg频道:@bpjzx2-4
-      - 日本-tg频道:@bpjzx2-13
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+44
-      - US_185+|+1.91Mb
-      - github.com/freefq+-+法国格拉沃利讷OVH数据中心+30
-      - US_174+|+1.92Mb
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+1
-      - github.com/freefq+-+美国华盛顿Cogent通信公司+23
+      - 嘉轩网络_1
+      - 嘉轩网络_2
+      - 嘉轩网络_3
+      - 嘉轩网络_4
+      - 嘉轩网络_5
+      - 嘉轩网络_6
+      - 嘉轩网络_7
+      - 嘉轩网络_8
+      - 嘉轩网络_9
+      - 嘉轩网络_10
+      - 嘉轩网络_11
+      - 嘉轩网络_12
+      - 嘉轩网络_13
+      - 嘉轩网络_14
+      - 嘉轩网络_15
+      - 嘉轩网络_16
+      - 嘉轩网络_17
+      - 嘉轩网络_18
+      - 嘉轩网络_19
+      - 嘉轩网络_20
+      - 嘉轩网络_21
+      - 嘉轩网络_22
+      - 嘉轩网络_23
+      - 嘉轩网络_24
+      - 嘉轩网络_25
+      - 嘉轩网络_26
+      - 嘉轩网络_27
+      - 嘉轩网络_28
+      - 嘉轩网络_29
+      - 嘉轩网络_30
+      - 嘉轩网络_31
+      - 嘉轩网络_32
+      - 嘉轩网络_33
+      - 嘉轩网络_34
+      - 嘉轩网络_35
+      - 嘉轩网络_36
+      - 嘉轩网络_37
+      - 嘉轩网络_38
+      - 嘉轩网络_39
+      - 嘉轩网络_40
+      - 嘉轩网络_41
+      - 嘉轩网络_42
+      - 嘉轩网络_43
+      - 嘉轩网络_44
+      - 嘉轩网络_45
+      - 嘉轩网络_46
+      - 嘉轩网络_47
+      - 嘉轩网络_48
+      - 嘉轩网络_49
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
@@ -10910,4 +10718,3 @@ rules:
  - DOMAIN-KEYWORD,XLLiveUD,🎯 全球直连
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
-
