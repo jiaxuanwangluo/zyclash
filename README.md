@@ -5,55 +5,38 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 嘉轩网络_1, server: aws.raytrack.cloud, port: 20030, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_2, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_3, server: aws.raytrack.cloud, port: 20028, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_4, server: nk1.boom.skin, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: 嘉轩网络_5, server: nk4.boom.skin, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: 嘉轩网络_6, server: aws.raytrack.cloud, port: 20038, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_7, server: nk7.boom.skin, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: 嘉轩网络_8, server: p-c08.nnf613.xyz, port: 22016, type: ssr, cipher: chacha20-ietf, password: x52s9bPIblI, protocol: auth_aes128_md5, obfs: plain, protocol-param: 7941:loDnQkobC5Z, obfs-param: c3VwcG9ydC5hcHBsZS5jb20, udp: true}
-  - {name: 嘉轩网络_9, server: nk3.boom.skin, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: 嘉轩网络_10, server: nk6.boom.skin, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 480485:4OS4Zb, obfs-param: ZG93bmxvYWQud2luZG93c3VwZGF0ZS5jb20, udp: true}
-  - {name: 嘉轩网络_11, server: 0c7f5f2.ph.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.ph.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_12, server: gyjp1.333003.xyz, port: 19324, type: trojan, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, sni: gyjp1.333003.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_13, server: gyjp2.333003.xyz, port: 19780, type: trojan, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, sni: gyjp2.333003.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_14, server: 43.229.153.148, port: 50418, type: trojan, password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_15, server: fn600mlines008re.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cc05a17e6195, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008re.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_16, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_17, server: fn600mliness010.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ee3dfbbe3dca, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness010.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_18, server: fn600mliness013.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1b584982dbdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mliness013.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_19, server: gyjp3.333003.xyz, port: 16914, type: ss, cipher: chacha20-ietf-poly1305, password: 6367e137-7366-44e4-a7a1-eba23a6d1e93, udp: true}
-  - {name: 嘉轩网络_20, server: tw.tcpbbr.net, port: 443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: tw.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_21, server: fn600mlines008re.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cc05a17e6195, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fn600mlines008re.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_22, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: 594f3c57-d2aa-43a8-98c0-73e672a52b8a, sni: 730tw01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_23, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_24, server: dt.755657.xyz, port: 443, type: trojan, password: ea635091-5d17-42b9-ad81-d26572a9eea8, sni: dt.755657.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_25, server: fndxshk1000mline006.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: db83a372671f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline006.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_26, server: fnhk1gline002.fnline.me, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 957abf07c5a6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline002.fnline.me, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_27, server: fndxshk1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 50db7fd78cdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline001.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_28, server: fnhk1gline002.fnline.me, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 957abf07c5a6, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnhk1gline002.fnline.me, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_29, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline007.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_30, server: fndxshk1000mline001.fnline.vip, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 50db7fd78cdc, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline001.fnline.vip, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_31, server: fndxshk1000mline003.fnline.xyz, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: c3d44eb5b92f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_32, server: fndxshk1000mline007.fnline.info, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fbf6ae5c0de, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fndxshk1000mline007.fnline.info, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_33, server: 823tw.tfzhc.top, port: 443, type: trojan, password: 594f3c57-d2aa-43a8-98c0-73e672a52b8a, sni: 823tw.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_34, server: 0c7f5f2.pc.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.pc.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_35, server: 147.139.65.214, port: 8888, type: ssr, cipher: aes-256-cfb, password: GFHhujkjkY, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 嘉轩网络_36, server: 0c7f5f2.pe.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.pe.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_37, server: 0c7f5f2.pi.gladns.com, port: 3389, type: trojan, password: c992d4055f0a7383, sni: 0c7f5f2.pi.gladns.com, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_38, server: fnbg1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 6fce24dde8c5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline001.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_39, server: fnbg1gline001.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 6fce24dde8c5, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline001.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_40, server: 173.82.248.109, port: 11687, type: trojan, password: gkjpxNwC7x, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_41, server: fnbg1gline002.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 33d0b611860f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline002.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_42, server: 64.27.30.211, port: 14815, type: trojan, password: JDpCGXNLHq, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_43, server: api.tcpbbr.net, port: 18443, type: trojan, password: 80bcf4f2-12f7-11ed-bb74-f23c9164ca5d, sni: api.tcpbbr.net, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_44, server: cc.755657.xyz, port: 443, type: trojan, password: ea635091-5d17-42b9-ad81-d26572a9eea8, sni: cc.755657.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_45, server: 155.94.239.243, port: 20001, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b, udp: true}
-  - {name: 嘉轩网络_46, server: 144.168.61.107, port: 4441, type: trojan, password: !<str> 1122, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_47, server: fnbg1gline003.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: cf533d2acaa3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_48, server: fnbg1gline003.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: cf533d2acaa3, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline003.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
-  - {name: 嘉轩网络_49, server: fnbg1gline002.fnline.xyz, port: 443, type: ss, cipher: xchacha20-ietf-poly1305, password: 33d0b611860f, plugin: v2ray-plugin, plugin-opts: {mode: websocket, host: fnbg1gline002.fnline.xyz, path: /, tls: true, mux: true, skip-cert-verify: true}, udp: true}
+  - {name: 嘉轩网络_1, server: s1.j20xs1.xyz, port: 32003, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_2, server: s1.j20xs1.xyz, port: 32000, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_3, server: cuddns.pdjc.cc, port: 44000, type: trojan, password: 722af5d9-51c9-47d0-8c8b-22190806389c, sni: cuddns.pdjc.cc, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_4, server: s1.j20xs1.xyz, port: 32002, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_5, server: aws.raytrack.cloud, port: 54784, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_6, server: s1.j20xs1.xyz, port: 32001, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_7, server: 43.229.153.148, port: 50418, type: trojan, password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_8, server: a.th.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_9, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_10, server: a.th.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_11, server: a.uk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_12, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: cca88b23-9ff8-430b-a0fa-368653dce4f8, sni: 730tw01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_13, server: a.de.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_14, server: a.br.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_15, server: a.il.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_16, server: a.kr.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_17, server: a.tw.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_18, server: a.rus.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_19, server: a.in.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_20, server: a.uk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_21, server: a.tw.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_22, server: a.br.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_23, server: a.es.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_24, server: a.kr.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_25, server: 825hk01.tfzhc.top, port: 443, type: trojan, password: cca88b23-9ff8-430b-a0fa-368653dce4f8, sni: 825hk01.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_26, server: clash4-2.ssrfree4.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 嘉轩网络_27, server: a.de.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_28, server: 103.173.155.72, port: 28443, type: trojan, password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c, skip-cert-verify: true, udp: true}
+  - {name: 嘉轩网络_29, server: 91.206.92.176, port: 35030, type: ss, cipher: chacha20-ietf-poly1305, password: FCx0i7b33H9G, udp: true}
+  - {name: 嘉轩网络_30, server: 147.139.65.214, port: 8888, type: ssr, cipher: aes-256-cfb, password: GFHhujkjkY, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
+  - {name: 嘉轩网络_31, server: a.hk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: 嘉轩网络_32, server: b.jp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
@@ -92,23 +75,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -146,23 +112,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
   - name: 🎥 NETFLIX
     type: select
     proxies:
@@ -201,23 +150,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -268,23 +200,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -327,23 +242,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
   - name: 📲 电报信息
     type: select
     proxies:
@@ -381,23 +279,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -436,23 +317,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -500,23 +364,6 @@ proxy-groups:
       - 嘉轩网络_30
       - 嘉轩网络_31
       - 嘉轩网络_32
-      - 嘉轩网络_33
-      - 嘉轩网络_34
-      - 嘉轩网络_35
-      - 嘉轩网络_36
-      - 嘉轩网络_37
-      - 嘉轩网络_38
-      - 嘉轩网络_39
-      - 嘉轩网络_40
-      - 嘉轩网络_41
-      - 嘉轩网络_42
-      - 嘉轩网络_43
-      - 嘉轩网络_44
-      - 嘉轩网络_45
-      - 嘉轩网络_46
-      - 嘉轩网络_47
-      - 嘉轩网络_48
-      - 嘉轩网络_49
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
