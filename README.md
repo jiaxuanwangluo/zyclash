@@ -5,151 +5,91 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 嘉轩网络_1, server: s1.j20xs1.xyz, port: 32003, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_2, server: s1.j20xs1.xyz, port: 32000, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_3, server: cuddns.pdjc.cc, port: 44000, type: trojan, password: 722af5d9-51c9-47d0-8c8b-22190806389c, sni: cuddns.pdjc.cc, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_4, server: s1.j20xs1.xyz, port: 32002, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_5, server: aws.raytrack.cloud, port: 54784, type: trojan, password: 1b60a674-a7b7-4322-b6e4-f6db29c7e4c9, sni: aws.raytrack.cloud, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_6, server: s1.j20xs1.xyz, port: 32001, type: trojan, password: 4e3d2c35-906d-36ae-b796-9f852cc6de4d, sni: s1.j20xs1.xyz, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_7, server: 43.229.153.148, port: 50418, type: trojan, password: 5d1b3b0a-de2a-4731-938d-4c7e15f034c1, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_8, server: a.th.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_9, server: 103.103.245.125, port: 50350, type: trojan, password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_10, server: a.th.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_11, server: a.uk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_12, server: 730tw01.ok365.cyou, port: 443, type: trojan, password: cca88b23-9ff8-430b-a0fa-368653dce4f8, sni: 730tw01.ok365.cyou, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_13, server: a.de.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_14, server: a.br.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_15, server: a.il.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_16, server: a.kr.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_17, server: a.tw.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_18, server: a.rus.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_19, server: a.in.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_20, server: a.uk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_21, server: a.tw.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_22, server: a.br.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_23, server: a.es.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_24, server: a.kr.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_25, server: 825hk01.tfzhc.top, port: 443, type: trojan, password: cca88b23-9ff8-430b-a0fa-368653dce4f8, sni: 825hk01.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_26, server: clash4-2.ssrfree4.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 嘉轩网络_27, server: a.de.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 139242:c6YW3v, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_28, server: 103.173.155.72, port: 28443, type: trojan, password: 3b3431ac-05bf-44fd-b93c-10db87d4ff5c, skip-cert-verify: true, udp: true}
-  - {name: 嘉轩网络_29, server: 91.206.92.176, port: 35030, type: ss, cipher: chacha20-ietf-poly1305, password: FCx0i7b33H9G, udp: true}
-  - {name: 嘉轩网络_30, server: 147.139.65.214, port: 8888, type: ssr, cipher: aes-256-cfb, password: GFHhujkjkY, protocol: auth_sha1_v4, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: 嘉轩网络_31, server: a.hk.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
-  - {name: 嘉轩网络_32, server: b.jp.hideu.tw, port: 10629, type: ssr, cipher: dummy, password: .hideu0430., protocol: auth_chain_a, obfs: plain, protocol-param: 258433:lUoukm, obfs-param: "", udp: true}
+  - {name: :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix, server: ty1-1.nigirocloud.com, port: 443, type: trojan, password: 4V4kxVXmcg5Yn2DqF2, sni: ty1-1.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇲🇩_MD_摩尔多瓦, server: aws2.raytrack.cloud, port: 24725, type: trojan, password: f6f16e37-c800-46d5-ac12-475b4b61c18b, sni: aws2.raytrack.cloud, skip-cert-verify: true, udp: true}
+  - {name: TW 1 → openitsub.com, server: tw01.balala2016.xyz, port: 20261, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, sni: tw01.balala2016.xyz, skip-cert-verify: true, udp: true}
+  - {name: unknown 2 → openitsub.com, server: ty1-2.nigirocloud.com, port: 443, type: trojan, password: 4V4kxVXmcg5Yn2DqF2, sni: ty1-2.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq - 加拿大  17, server: tw93.tfzhc.top, port: 80, type: trojan, password: d09d2305-24db-43c4-b309-0e1d2737329f, sni: tw93.tfzhc.top, skip-cert-verify: true, udp: true}
+  - {name: github.com/freefq+-+日本东京Linode数据中心+2, server: 172.105.236.40, port: 10004, type: ss, cipher: aes-128-gcm, password: 61e2d024-31ac-4c8a-8ca8-6ea85ae7941b, udp: true}
+  - {name: github.com/freefq - 美国  22, server: ty1-3.nigirocloud.com, port: 443, type: trojan, password: 4V4kxVXmcg5Yn2DqF2, sni: ty1-3.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: JP 6 → openitsub.com, server: jp08.balala2016.xyz, port: 20278, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, sni: jp08.balala2016.xyz, skip-cert-verify: true, udp: true}
+  - {name: US 31 → openitsub.com, server: transit01.balala2016.xyz, port: 20271, type: trojan, password: ED177480-E516-11EA-8B44-BBC4E882BA0B, sni: transit01.balala2016.xyz, skip-cert-verify: true, udp: true}
+  - {name: :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧, server: musashino.freetrade.link, port: 443, type: trojan, password: ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428, sni: musashino.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧, server: 92.38.184.228, port: 2097, type: ss, cipher: chacha20-ietf-poly1305, password: jRKkoWqkrw2f, udp: true}
+  - {name: github.com/freefq - 加拿大  23, server: 727tw01.ok365.cyou, port: 443, type: trojan, password: d09d2305-24db-43c4-b309-0e1d2737329f, sni: 727tw01.ok365.cyou, skip-cert-verify: true, udp: true}
+  - {name: TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb, server: 144.168.61.107, port: 4441, type: trojan, password: !<str> 1122, skip-cert-verify: true, udp: true}
+  - {name: US 11 → openitsub.com, server: los.ydnode.us, port: 443, type: trojan, password: b3845d95-c82e-47f8-b626-0f27d861e8f7, sni: los.ydnode.us, skip-cert-verify: true, udp: true}
+  - {name: US 12 → openitsub.com, server: 199.19.109.30, port: 50330, type: trojan, password: ad9ee6b5-4707-478a-ba5c-0fc7a4b0314c, skip-cert-verify: true, udp: true}
+  - {name: :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧, server: purchases.freetrade.link, port: 443, type: trojan, password: ZeYaxlxBNuyjgp736e8l4I32aAZSOYRcqD3ESC8pwADKSCFDynO3a0FXTzC5R9, sni: purchases.freetrade.link, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: simpang.freetrade.link, port: 443, type: trojan, password: XEyN0OZ28xxCDO7C83DeAa3YcSjYKTgFA5n9IRpFwuB3qSz4aZClSapy3eRl6D, sni: simpang.freetrade.link, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -168,38 +108,23 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -210,113 +135,68 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -332,38 +212,23 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 嘉轩网络_1
-      - 嘉轩网络_2
-      - 嘉轩网络_3
-      - 嘉轩网络_4
-      - 嘉轩网络_5
-      - 嘉轩网络_6
-      - 嘉轩网络_7
-      - 嘉轩网络_8
-      - 嘉轩网络_9
-      - 嘉轩网络_10
-      - 嘉轩网络_11
-      - 嘉轩网络_12
-      - 嘉轩网络_13
-      - 嘉轩网络_14
-      - 嘉轩网络_15
-      - 嘉轩网络_16
-      - 嘉轩网络_17
-      - 嘉轩网络_18
-      - 嘉轩网络_19
-      - 嘉轩网络_20
-      - 嘉轩网络_21
-      - 嘉轩网络_22
-      - 嘉轩网络_23
-      - 嘉轩网络_24
-      - 嘉轩网络_25
-      - 嘉轩网络_26
-      - 嘉轩网络_27
-      - 嘉轩网络_28
-      - 嘉轩网络_29
-      - 嘉轩网络_30
-      - 嘉轩网络_31
-      - 嘉轩网络_32
+      - :荷兰-trojan-ty1-1.nigirocloud.com:443-可用-中转:45.149.4.105-不支持Netflix
+      - _CN_中国->🇲🇩_MD_摩尔多瓦
+      - TW 1 → openitsub.com
+      - unknown 2 → openitsub.com
+      - github.com/freefq - 加拿大  17
+      - github.com/freefq+-+日本东京Linode数据中心+2
+      - github.com/freefq - 美国  22
+      - JP 6 → openitsub.com
+      - US 31 → openitsub.com
+      - :日本-trojan-musashino.freetrade.link:443-可用-中转:52.192.189.119-仅支持日本地区NF自制剧
+      - :荷兰-ss-92.38.184.228:2097-可用-直连-仅支持美国地区NF自制剧
+      - github.com/freefq - 加拿大  23
+      - TG@https://t.me/moneyfly2022      美国_1098 |29.23Mb
+      - US 11 → openitsub.com
+      - US 12 → openitsub.com
+      - :美国-trojan-purchases.freetrade.link:443-可用-中转:154.17.23.220-仅支持美国地区NF自制剧
+      - _SG_新加坡
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
