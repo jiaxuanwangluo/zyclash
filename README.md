@@ -5,159 +5,139 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "| TG频道@baipiaoeverything | 35", server: 116.162.120.24, port: 560, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4000:r*TG*D4f4Jn75i, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0=, udp: true}
-  - {name: "| TG频道@baipiaoeverything | 11", server: 220.196.214.169, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 51760:LLL090ui8oll8, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0=, udp: true}
-  - {name: 香港(TG频道:@kxswa), server: 8.210.212.41, port: 22303, type: vmess, uuid: a0775aec-e4f8-4d5d-aad0-e50ccff0a7dc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [8.210.212.41]}}, udp: true}
-  - {name: 香港(TG频道:@kxswa) 2, server: 47.243.131.231, port: 58681, type: vmess, uuid: df206563-b36c-4999-8764-c3e21a931b9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.131.231]}}, udp: true}
-  - {name: "| TG频道@baipiaoeverything | 34", server: 116.162.120.23, port: 562, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4000:r*TG*D4f4Jn75i, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0=, udp: true}
-  - {name: "|+TG频道@baipiaoeverything+|+15", server: 156.146.38.163, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: JP 1 → TG@SCINV, server: kr1.api-aws.com, port: 443, type: trojan, password: 1988268c-a841-42f2-acac-7a8c0c7e78e5, sni: kr1.api-aws.com, skip-cert-verify: true, udp: true}
-  - {name: 新加坡(TG频道:@kxswa), server: 99tw03.tfzhc.top, port: 443, type: trojan, password: 462a6dca-d63e-48e5-bcb8-10b4fe2123d4, sni: 99tw03.tfzhc.top, skip-cert-verify: true, udp: true}
-  - {name: 美国(TG频道:@kxswa), server: 1dcelist.qiqis.ml, port: 443, type: vmess, uuid: 52053c10-455c-4327-8fae-dd0d0c5e897f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /e525f6fdef/, ws-headers: {Host: 1dcelist.qiqis.ml}, udp: true}
-  - {name: United States, server: us03.wol1.eu.org, port: 10001, type: trojan, password: 626e7baa-37b9-4c11-a5a3-0239f784caf7, sni: us03.wol1.eu.org, skip-cert-verify: true, udp: true}
-  - {name: (TG频道:@kxswa), server: 2dcelist.qiqis.ml, port: 443, type: vmess, uuid: 52053c10-455c-4327-8fae-dd0d0c5e897f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /e525f6fdef/, ws-headers: {Host: 2dcelist.qiqis.ml}, udp: true}
-  - {name: GB 1 → TG@SCINV, server: 18.130.157.11, port: 443, type: trojan, password: iyinglong, skip-cert-verify: true, udp: true}
-  - {name: "| TG频道@baipiaoeverything | 50", server: 112.65.52.165, port: 568, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: 4000:r*TG*D4f4Jn75i, obfs-param: VmpKMFYxUnJNVmhWYTJScVVteEtVVlpyVm5kalZsWjFZMFprYTJKSFVsaFpWVnBLVUZFOVBRPT0=, udp: true}
-  - {name: "Hotspot 🇬🇧[英国]", server: 146.19.230.241, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 韩国(TG频道:@kxswa), server: clash4-2.ssrfree4.xyz, port: 12345, type: ssr, cipher: dummy, password: dongtaiwang.com, protocol: auth_chain_a, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "Hotspot 🇺🇸[美国]", server: 138.124.183.222, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: 韩国(TG频道:@kxswa) 2, server: 3.38.166.185, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: 韩国(TG频道:@kxswa) 3, server: 13.209.81.232, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: "Hotspot 🇰🇷[韩国]", server: 3.38.108.94, port: 443, type: trojan, password: xxoo, skip-cert-verify: true, udp: true}
-  - {name: Korea 03, server: kr04.wol1.eu.org, port: 10001, type: trojan, password: 626e7baa-37b9-4c11-a5a3-0239f784caf7, sni: kr04.wol1.eu.org, skip-cert-verify: true, udp: true}
-  - {name: 中国(TG频道:@kxswa), server: 106.55.234.95, port: 31372, type: vmess, uuid: 374d3519-455c-45b8-e3b1-0e2e9fcf4411, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Alien, server: sb.mealstream.xyz, port: 10022, type: vmess, uuid: e84732ae-bbf2-4a6e-9a40-d2cb40ec4f83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF, server: 43.248.79.72, port: 80, type: vmess, uuid: 8f4832f7-a51b-4049-9060-0422c3223e76, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 43.248.79.72}, udp: true}
-  - {name: :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix, server: 35.92.36.222, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix, server: 34.222.144.189, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
-  - {name: _HK_香港_1_0@4, server: 47.243.131.231, port: 58681, type: vmess, uuid: df206563-b36c-4999-8764-c3e21a931b9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.131.231]}}, udp: true}
-  - {name: _HK_香港_7_0@14, server: 47.243.124.141, port: 41179, type: vmess, uuid: a50b1dc4-03ce-44d8-a5c4-f4753c57884e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.124.141]}}, udp: true}
-  - {name: _HK_香港_3_0@6, server: 47.242.18.21, port: 44850, type: vmess, uuid: 4e390bc8-a22a-49e0-a538-d1b6da917677, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.18.21]}}, udp: true}
-  - {name: _HK_香港_1_1@4, server: 47.243.136.17, port: 37205, type: vmess, uuid: abb92d0b-5613-48ae-9564-03fda7830a96, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.243.136.17]}}, udp: true}
-  - {name: _HK_香港_4_0@10, server: 47.242.236.239, port: 35707, type: vmess, uuid: 81acfa46-1c36-4950-8dd5-04dd0a1ff0f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: http, http-opts: {method: GET, path: [/], headers: {Host: [47.242.236.239]}}, udp: true}
-  - {name: US_653_25@652, server: jgwdj3.gaox.ml, port: 443, type: trojan, password: da777aae-defb-41d0-a183-2c27da2b4677, sni: jgwdj3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _US_美国_12_1@42, server: 150.230.249.42, port: 443, type: trojan, password: 0Y9gOHSdRt, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇺🇸_US_美国_2_13@23, server: i1.go001.buzz, port: 32601, type: ss, cipher: aes-256-gcm, password: bBEXIq, udp: true}
-  - {name: _HK_香港->🇺🇸_US_美国_1_2@17, server: azhj001.xibai6.top, port: 20715, type: trojan, password: 3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a, sni: azhj001.xibai6.top, skip-cert-verify: true, udp: true}
+  - {name: CN-116.129.253.62-0150, server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 20221, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: V4-3089|日本|x1.5, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13089, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: CN-116.129.253.62-0151, server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30054, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: CN-116.129.253.62-0152, server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30055, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: CN-116.129.253.62-0149, server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 20220, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: V4-3087|日本|x1.5, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13087, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: CN-116.129.253.62-0179, server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 20225, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: CN-120.241.146.157-0156, server: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30038, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: V4-3489|香港|x1.5, server: cd69.cdn.node.a.tddns-ounk.com, port: 13489, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3300|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13300, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3488|香港|x1.5, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13488, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3304|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13304, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3639|香港|x1.5, server: cd69.cdn.node.a.tddns-ounk.com, port: 13639, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3640|香港|x1.5, server: cd69.cdn.node.a.tddns-ounk.com, port: 13640, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3303|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13303, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3298|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13298, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: CN-116.129.253.62-0169, server: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 20222, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinagz.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: V4-3302|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13302, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3090|日本|x1.5, server: q8eq.cdn.node.a.tddns-ounk.com, port: 13090, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3448|香港|x1.5, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13448, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: _HK_香港_40, server: cn-hk-34.fnhffffe4.cc, port: 50300, type: trojan, password: 4296b783-18c5-4dcc-97e5-caf5f39039c3, sni: cn-hk-34.fnhffffe4.cc, skip-cert-verify: true, udp: true}
+  - {name: V4-3449|香港|x1.5, server: ssyj.cdn.node.a.tddns-ounk.com, port: 13449, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3301|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13301, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: CN-116.129.253.62-0165, server: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30056, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinash01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: CN-120.241.146.157-0155, server: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30006, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinagz01.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
+  - {name: V4-3299|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13299, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3351|新加坡|x2.5, server: r97q.cdn.node.a.tddns-ounk.com, port: 13351, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: V4-3305|台湾|x1.0, server: mjk6.cdn.node.a.tddns-ounk.com, port: 13305, type: ssr, cipher: rc4-md5, password: Cskw6d, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: 133076:cSoNvJ, obfs-param: de965133076.microsoft.com, udp: true}
+  - {name: CN-116.129.253.62-0167, server: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, port: 30050, type: trojan, password: 9c789762-cb13-4c28-a3ba-333fe78b30f3, sni: sinash02.dghjkjhertyuihgfddfghjasdertyuudfghjaxcvbj.com, skip-cert-verify: true, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -176,171 +156,158 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - V4-3302|台湾|x1.0
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - V4-3299|台湾|x1.0
+      - V4-3305|台湾|x1.0
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -356,40 +323,35 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "| TG频道@baipiaoeverything | 35"
-      - "| TG频道@baipiaoeverything | 11"
-      - 香港(TG频道:@kxswa)
-      - 香港(TG频道:@kxswa) 2
-      - "| TG频道@baipiaoeverything | 34"
-      - "|+TG频道@baipiaoeverything+|+15"
-      - JP 1 → TG@SCINV
-      - 新加坡(TG频道:@kxswa)
-      - 美国(TG频道:@kxswa)
-      - United States
-      - (TG频道:@kxswa)
-      - GB 1 → TG@SCINV
-      - "| TG频道@baipiaoeverything | 50"
-      - Hotspot 🇬🇧[英国]
-      - 韩国(TG频道:@kxswa)
-      - Hotspot 🇺🇸[美国]
-      - 韩国(TG频道:@kxswa) 2
-      - 韩国(TG频道:@kxswa) 3
-      - Hotspot 🇰🇷[韩国]
-      - Korea 03
-      - 中国(TG频道:@kxswa)
-      - Alien
-      - :中国-vmess-43.248.79.72:80-可用-直连-完全不支持NF
-      - :美国-ss-35.92.36.222:443-可用-直连-不支持Netflix
-      - :美国-ss-34.222.144.189:443-可用-直连-不支持Netflix
-      - _HK_香港_1_0@4
-      - _HK_香港_7_0@14
-      - _HK_香港_3_0@6
-      - _HK_香港_1_1@4
-      - _HK_香港_4_0@10
-      - US_653_25@652
-      - _US_美国_12_1@42
-      - _CN_中国->🇺🇸_US_美国_2_13@23
-      - _HK_香港->🇺🇸_US_美国_1_2@17
+      - CN-116.129.253.62-0150
+      - V4-3089|日本|x1.5
+      - CN-116.129.253.62-0151
+      - CN-116.129.253.62-0152
+      - CN-116.129.253.62-0149
+      - V4-3087|日本|x1.5
+      - CN-116.129.253.62-0179
+      - CN-120.241.146.157-0156
+      - V4-3489|香港|x1.5
+      - V4-3300|台湾|x1.0
+      - V4-3488|香港|x1.5
+      - V4-3304|台湾|x1.0
+      - V4-3639|香港|x1.5
+      - V4-3640|香港|x1.5
+      - V4-3303|台湾|x1.0
+      - V4-3298|台湾|x1.0
+      - CN-116.129.253.62-0169
+      - V4-3302|台湾|x1.0
+      - V4-3090|日本|x1.5
+      - V4-3448|香港|x1.5
+      - _HK_香港_40
+      - V4-3449|香港|x1.5
+      - V4-3301|台湾|x1.0
+      - CN-116.129.253.62-0165
+      - CN-120.241.146.157-0155
+      - V4-3299|台湾|x1.0
+      - V4-3351|新加坡|x2.5
+      - V4-3305|台湾|x1.0
+      - CN-116.129.253.62-0167
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
